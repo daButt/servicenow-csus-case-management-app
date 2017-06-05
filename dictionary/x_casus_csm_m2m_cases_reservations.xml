@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Csm M2m Cases Reservations" max_length="40" name="x_casus_csm_m2m_cases_reservations" type="collection">
+        <element label="Case" max_length="32" name="case" reference="x_casus_csm_case" type="reference"/>
+        <element label="Reservation" max_length="32" name="reservation" reference="x_casus_reservatio_reservation" type="reference"/>
+        <index name="index">
+            <element name="reservation"/>
+        </index>
+        <index name="index2">
+            <element name="case"/>
+        </index>
+    </element>
+</database>

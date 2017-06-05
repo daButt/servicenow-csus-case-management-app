@@ -11,27 +11,27 @@
         <dependent/>
         <dependent_override>false</dependent_override>
         <display_override>false</display_override>
-        <element>number</element>
-        <mandatory>false</mandatory>
-        <mandatory_override>false</mandatory_override>
+        <element>assigned_to</element>
+        <mandatory>true</mandatory>
+        <mandatory_override>true</mandatory_override>
         <name>x_casus_csm_case</name>
-        <read_only>true</read_only>
-        <read_only_override>true</read_only_override>
-        <reference_qual/>
-        <reference_qual_override>false</reference_qual_override>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual>gs.hasRole('x_casus_csm.case_manager")</reference_qual>
+        <reference_qual_override>true</reference_qual_override>
         <sys_class_name>sys_dictionary_override</sys_class_name>
         <sys_created_by>nicholasmyers</sys_created_by>
-        <sys_created_on>2017-06-05 21:12:47</sys_created_on>
+        <sys_created_on>2017-06-05 21:47:47</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
-        <sys_id>15ae8b630f83760012e4348ce1050e31</sys_id>
+        <sys_id>e28617670f83760012e4348ce1050eff</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name>number</sys_name>
+        <sys_name>assigned_to</sys_name>
         <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
-        <sys_update_name>sys_dictionary_override_15ae8b630f83760012e4348ce1050e31</sys_update_name>
+        <sys_update_name>sys_dictionary_override_e28617670f83760012e4348ce1050eff</sys_update_name>
         <sys_updated_by>nicholasmyers</sys_updated_by>
-        <sys_updated_on>2017-06-05 22:21:34</sys_updated_on>
+        <sys_updated_on>2017-06-05 22:20:05</sys_updated_on>
     </sys_dictionary_override>
 </record_update>

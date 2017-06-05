@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_casus_reservatio_reservation</from_table>
+        <m2m_from_field>reservation</m2m_from_field>
+        <m2m_from_label>Cases</m2m_from_label>
+        <m2m_table>x_casus_csm_m2m_cases_reservations</m2m_table>
+        <m2m_to_field>case</m2m_to_field>
+        <m2m_to_label>Reservations</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-05 23:06:59</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>eea8afaf0f83760012e4348ce1050ee7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_casus_csm_m2m_cases_reservations</sys_name>
+        <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
+        <sys_update_name>sys_m2m_eea8afaf0f83760012e4348ce1050ee7</sys_update_name>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-05 23:06:59</sys_updated_on>
+        <to_table>x_casus_csm_case</to_table>
+    </sys_m2m>
+</record_update>

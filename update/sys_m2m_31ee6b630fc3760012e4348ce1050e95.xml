@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_m2m">
+    <sys_m2m action="INSERT_OR_UPDATE">
+        <from_table>x_casus_csm_case</from_table>
+        <m2m_from_field>case</m2m_from_field>
+        <m2m_from_label>Surveys</m2m_from_label>
+        <m2m_table>x_casus_csm_m2m_survey_instances_cases</m2m_table>
+        <m2m_to_field>survey_instances</m2m_to_field>
+        <m2m_to_label>Cases</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-05 23:33:59</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>31ee6b630fc3760012e4348ce1050e95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_casus_csm_m2m_survey_instances_cases</sys_name>
+        <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
+        <sys_update_name>sys_m2m_31ee6b630fc3760012e4348ce1050e95</sys_update_name>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-05 23:33:59</sys_updated_on>
+        <to_table>survey_instance</to_table>
+    </sys_m2m>
+</record_update>

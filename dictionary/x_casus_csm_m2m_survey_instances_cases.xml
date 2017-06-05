@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Csm M2m Survey Instances Cases" max_length="40" name="x_casus_csm_m2m_survey_instances_cases" type="collection">
+        <element label="Case" max_length="32" name="case" reference="x_casus_csm_case" type="reference"/>
+        <element label="Survey Instances" max_length="32" name="survey_instances" reference="survey_instance" type="reference"/>
+        <index name="index">
+            <element name="survey_instances"/>
+        </index>
+        <index name="index2">
+            <element name="case"/>
+        </index>
+    </element>
+</database>
