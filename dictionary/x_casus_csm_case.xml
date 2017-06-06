@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="live_feed=true" audit="true" extends="task" label="Case" max_length="40" name="x_casus_csm_case" type="collection">
+    <element attributes="live_feed=true,email_client=true" audit="true" extends="task" label="Case" max_length="40" name="x_casus_csm_case" sizeclass="1" type="collection">
         <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=user_name;employee_number,ref_ac_order_by=name,ref_ac_columns_search=true" label="Client" mandatory="true" max_length="32" name="client" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Contact email" max_length="40" name="contact_email" type="string"/>
+        <element label="Contact phone" max_length="40" name="contact_phone" type="string"/>
     </element>
 </database>
