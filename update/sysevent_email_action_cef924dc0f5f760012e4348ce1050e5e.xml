@@ -41,7 +41,7 @@
         <omit_watermark>false</omit_watermark>
         <order>100</order>
         <push_message_only>false</push_message_only>
-        <recipient_fields>assigned_to.email</recipient_fields>
+        <recipient_fields>assigned_to</recipient_fields>
         <recipient_groups/>
         <recipient_users/>
         <reply_to/>
@@ -56,7 +56,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>cef924dc0f5f760012e4348ce1050e5e</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Notify Case Manager on Comments Added</sys_name>
         <sys_overrides/>
         <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
@@ -65,7 +65,7 @@
         <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
         <sys_update_name>sysevent_email_action_cef924dc0f5f760012e4348ce1050e5e</sys_update_name>
         <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-07 17:56:22</sys_updated_on>
+        <sys_updated_on>2017-06-07 21:45:11</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
