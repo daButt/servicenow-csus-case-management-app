@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Csm M2m Tasks Cases" max_length="40" name="x_casus_csm_m2m_tasks_cases" type="collection">
+    <element attributes="hasLabels=true" label="Csm M2m Tasks Cases" max_length="40" name="x_casus_csm_m2m_tasks_cases" type="collection">
         <element label="Case" max_length="32" name="case" reference="x_casus_csm_case" type="reference"/>
         <element label="Task" max_length="32" name="task" reference="task" type="reference"/>
         <element label="Task Type" max_length="80" name="task_type" type="table_name"/>

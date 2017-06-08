@@ -3,7 +3,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_casus_csm_m2m_tasks_cases">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>hasLabels=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
