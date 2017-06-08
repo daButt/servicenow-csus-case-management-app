@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_casus_csm_case" version="2" view="rpt-temp4f7506200f57b60012e4348ce1050e12longlim">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="577502600f57b60012e4348ce1050e1a">54d01ae40f57b60012e4348ce1050eb0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>longlim</sys_created_by>
+            <sys_created_on>2017-06-08 19:16:26</sys_created_on>
+            <sys_id>98d01ae40f57b60012e4348ce1050eb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>longlim</sys_updated_by>
+            <sys_updated_on>2017-06-08 19:16:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="577502600f57b60012e4348ce1050e1a">54d01ae40f57b60012e4348ce1050eb0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>longlim</sys_created_by>
+            <sys_created_on>2017-06-08 19:16:26</sys_created_on>
+            <sys_id>50d0dae40f57b60012e4348ce1050e2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>longlim</sys_updated_by>
+            <sys_updated_on>2017-06-08 19:16:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>client</element>
+            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="577502600f57b60012e4348ce1050e1a">54d01ae40f57b60012e4348ce1050eb0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>longlim</sys_created_by>
+            <sys_created_on>2017-06-08 19:16:26</sys_created_on>
+            <sys_id>d0d0dae40f57b60012e4348ce1050e2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>longlim</sys_updated_by>
+            <sys_updated_on>2017-06-08 19:16:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="577502600f57b60012e4348ce1050e1a">54d01ae40f57b60012e4348ce1050eb0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>longlim</sys_created_by>
+            <sys_created_on>2017-06-08 19:16:26</sys_created_on>
+            <sys_id>54d0dae40f57b60012e4348ce1050e2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>longlim</sys_updated_by>
+            <sys_updated_on>2017-06-08 19:16:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="577502600f57b60012e4348ce1050e1a">54d01ae40f57b60012e4348ce1050eb0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>longlim</sys_created_by>
+            <sys_created_on>2017-06-08 19:16:26</sys_created_on>
+            <sys_id>d4d0dae40f57b60012e4348ce1050e2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>longlim</sys_updated_by>
+            <sys_updated_on>2017-06-08 19:16:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="577502600f57b60012e4348ce1050e1a">54d01ae40f57b60012e4348ce1050eb0</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>longlim</sys_created_by>
+            <sys_created_on>2017-06-08 19:16:26</sys_created_on>
+            <sys_id>58d0dae40f57b60012e4348ce1050e2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>longlim</sys_updated_by>
+            <sys_updated_on>2017-06-08 19:16:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_casus_csm_case</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>longlim</sys_created_by>
+            <sys_created_on>2017-06-08 19:16:26</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>54d01ae40f57b60012e4348ce1050eb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name/>
+            <sys_package/>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by>longlim</sys_updated_by>
+            <sys_updated_on>2017-06-08 19:16:26</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt-temp4f7506200f57b60012e4348ce1050e12longlim" name="rpt-temp4f7506200f57b60012e4348ce1050e12longlim">577502600f57b60012e4348ce1050e1a</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

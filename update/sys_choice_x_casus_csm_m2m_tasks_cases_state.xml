@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_casus_csm_m2m_tasks_cases" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>x_casus_csm_m2m_tasks_cases</name>
+            <sequence>1</sequence>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-08 18:27:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bf65ce6c6fd7b600ad6cd4a21c3ee47b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-08 18:27:36</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Work in Progress</label>
+            <language>en</language>
+            <name>x_casus_csm_m2m_tasks_cases</name>
+            <sequence>2</sequence>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-08 18:27:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>0f95c6ac6fd7b600ad6cd4a21c3ee419</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-08 18:27:47</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Complete</label>
+            <language>en</language>
+            <name>x_casus_csm_m2m_tasks_cases</name>
+            <sequence>3</sequence>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-08 18:27:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>92a5c2ac6fd7b600ad6cd4a21c3ee419</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-08 18:28:12</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Incomplete</label>
+            <language>en</language>
+            <name>x_casus_csm_m2m_tasks_cases</name>
+            <sequence>4</sequence>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-08 18:28:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>69b542ac6fd7b600ad6cd4a21c3ee4c7</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-08 18:28:13</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Skipped</label>
+            <language>en</language>
+            <name>x_casus_csm_m2m_tasks_cases</name>
+            <sequence>5</sequence>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-08 18:28:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>94c5c2ac6fd7b600ad6cd4a21c3ee499</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-08 18:28:30</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Resolved</label>
+            <language>en</language>
+            <name>x_casus_csm_m2m_tasks_cases</name>
+            <sequence>6</sequence>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-08 18:28:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>74d5c6ac6fd7b600ad6cd4a21c3ee46e</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-08 18:28:54</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed</label>
+            <language>en</language>
+            <name>x_casus_csm_m2m_tasks_cases</name>
+            <sequence>7</sequence>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-08 18:29:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fee502ac6fd7b600ad6cd4a21c3ee4b2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-08 18:29:06</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Awaiting User Info</label>
+            <language>en</language>
+            <name>x_casus_csm_m2m_tasks_cases</name>
+            <sequence>8</sequence>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-08 18:29:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c6f542ac6fd7b600ad6cd4a21c3ee4c9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-08 18:29:28</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Active</label>
+            <language>en</language>
+            <name>x_casus_csm_m2m_tasks_cases</name>
+            <sequence>9</sequence>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-08 18:29:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>dd0602ac6fd7b600ad6cd4a21c3ee431</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-08 18:29:31</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_casus_csm_m2m_tasks_cases</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-08 18:27:28</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8f95ce6c6fd7b600ad6cd4a21c3ee47c</sys_id>
+            <sys_mod_count>28</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
+            <sys_update_name>sys_choice_x_casus_csm_m2m_tasks_cases_state</sys_update_name>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-08 18:29:31</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

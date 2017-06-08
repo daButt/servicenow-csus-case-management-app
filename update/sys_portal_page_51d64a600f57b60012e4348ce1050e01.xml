@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2017-06-08 19:39:54">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
+        <order/>
+        <read_roles>x_casus_csm.case_manager</read_roles>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>longlim</sys_created_by>
+        <sys_created_on>2017-06-08 18:33:36</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>51d64a600f57b60012e4348ce1050e01</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Case Manager Homepage</sys_name>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
+        <sys_update_name>sys_portal_page_51d64a600f57b60012e4348ce1050e01</sys_update_name>
+        <sys_updated_by>longlim</sys_updated_by>
+        <sys_updated_on>2017-06-08 19:15:11</sys_updated_on>
+        <title>Case Manager Homepage</title>
+        <user display_value="Long Lim">556a595030e0e400edaea43dafbaab53</user>
+        <view>case_management_user</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>1</offset>
+                <page display_value="Case Manager Homepage">51d64a600f57b60012e4348ce1050e01</page>
+                <summary/>
+                <sys_created_by>longlim</sys_created_by>
+                <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                <sys_id>07b256280f57b60012e4348ce1050e45</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>longlim</sys_updated_by>
+                <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">07b256280f57b60012e4348ce1050e45</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>07b256280f57b60012e4348ce1050e46</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>All Completed Team Cases</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">07b256280f57b60012e4348ce1050e45</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>0bb256280f57b60012e4348ce1050e45</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">07b256280f57b60012e4348ce1050e45</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>43b256280f57b60012e4348ce1050e46</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">07b256280f57b60012e4348ce1050e45</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>47b256280f57b60012e4348ce1050e45</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>4f7506200f57b60012e4348ce1050e12</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">07b256280f57b60012e4348ce1050e45</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>8fb256280f57b60012e4348ce1050e45</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">07b256280f57b60012e4348ce1050e45</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>c7b256280f57b60012e4348ce1050e46</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>51d64a600f57b60012e4348ce1050e01</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">07b256280f57b60012e4348ce1050e45</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>cbb256280f57b60012e4348ce1050e45</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="Case Manager Homepage">51d64a600f57b60012e4348ce1050e01</page>
+                <summary/>
+                <sys_created_by>longlim</sys_created_by>
+                <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                <sys_id>0fb256280f57b60012e4348ce1050e43</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>longlim</sys_updated_by>
+                <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">0fb256280f57b60012e4348ce1050e43</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>03b256280f57b60012e4348ce1050e44</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">0fb256280f57b60012e4348ce1050e43</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>0fb256280f57b60012e4348ce1050e44</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>All Active Team Cases</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">0fb256280f57b60012e4348ce1050e43</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>4bb256280f57b60012e4348ce1050e44</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">0fb256280f57b60012e4348ce1050e43</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>4fb256280f57b60012e4348ce1050e43</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>0f45c2200f57b60012e4348ce1050ed3</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">0fb256280f57b60012e4348ce1050e43</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>87b256280f57b60012e4348ce1050e44</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">0fb256280f57b60012e4348ce1050e43</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>c3b256280f57b60012e4348ce1050e44</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">0fb256280f57b60012e4348ce1050e43</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>cfb256280f57b60012e4348ce1050e44</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>51d64a600f57b60012e4348ce1050e01</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>1</offset>
+                <page display_value="Case Manager Homepage">51d64a600f57b60012e4348ce1050e01</page>
+                <summary/>
+                <sys_created_by>longlim</sys_created_by>
+                <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                <sys_id>43b256280f57b60012e4348ce1050e3f</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>longlim</sys_updated_by>
+                <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">43b256280f57b60012e4348ce1050e3f</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>07b256280f57b60012e4348ce1050e40</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>51d64a600f57b60012e4348ce1050e01</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">43b256280f57b60012e4348ce1050e3f</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>0bb256280f57b60012e4348ce1050e3f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">43b256280f57b60012e4348ce1050e3f</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>43b256280f57b60012e4348ce1050e40</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>All Cases Assigned to Me</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">43b256280f57b60012e4348ce1050e3f</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>47b256280f57b60012e4348ce1050e3f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">43b256280f57b60012e4348ce1050e3f</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>83b256280f57b60012e4348ce1050e3f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>b1e406200f57b60012e4348ce1050e2f</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">43b256280f57b60012e4348ce1050e3f</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>8fb256280f57b60012e4348ce1050e3f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">43b256280f57b60012e4348ce1050e3f</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>cbb256280f57b60012e4348ce1050e3f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="Case Manager Homepage">51d64a600f57b60012e4348ce1050e01</page>
+                <summary/>
+                <sys_created_by>longlim</sys_created_by>
+                <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                <sys_id>4bb256280f57b60012e4348ce1050e3d</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>longlim</sys_updated_by>
+                <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e3d</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>03b256280f57b60012e4348ce1050e3e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e3d</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>0fb256280f57b60012e4348ce1050e3e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>51d64a600f57b60012e4348ce1050e01</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e3d</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>4bb256280f57b60012e4348ce1050e3e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>My Active Cases</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e3d</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>4fb256280f57b60012e4348ce1050e3d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e3d</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>87b256280f57b60012e4348ce1050e3e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e3d</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>8bb256280f57b60012e4348ce1050e3d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>a254066c0f17b60012e4348ce1050e91</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e3d</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>c3b256280f57b60012e4348ce1050e3e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="Case Manager Homepage">51d64a600f57b60012e4348ce1050e01</page>
+                <summary/>
+                <sys_created_by>longlim</sys_created_by>
+                <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                <sys_id>4bb256280f57b60012e4348ce1050e40</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>longlim</sys_updated_by>
+                <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e40</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>03b256280f57b60012e4348ce1050e41</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e40</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>07b256280f57b60012e4348ce1050e43</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e40</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>0bb256280f57b60012e4348ce1050e42</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e40</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>0fb256280f57b60012e4348ce1050e41</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>bar</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e40</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>43b256280f57b60012e4348ce1050e43</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>360</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e40</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>47b256280f57b60012e4348ce1050e42</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>ff5642600f57b60012e4348ce1050efd</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e40</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>4bb256280f57b60012e4348ce1050e41</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e40</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>4fb256280f57b60012e4348ce1050e40</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>left</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e40</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>83b256280f57b60012e4348ce1050e42</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>My Cases Not Updated in Last 7 Days</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e40</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>87b256280f57b60012e4348ce1050e41</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e40</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>8bb256280f57b60012e4348ce1050e40</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e40</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>8fb256280f57b60012e4348ce1050e42</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e40</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>c3b256280f57b60012e4348ce1050e41</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e40</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>c7b256280f57b60012e4348ce1050e43</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>51d64a600f57b60012e4348ce1050e01</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e40</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>cbb256280f57b60012e4348ce1050e42</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 06-08-2017 12:24:49">4bb256280f57b60012e4348ce1050e40</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-08 19:24:49</sys_created_on>
+                        <sys_id>cfb256280f57b60012e4348ce1050e41</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-08 19:24:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>
