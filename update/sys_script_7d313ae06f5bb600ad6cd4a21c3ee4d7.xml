@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>incident</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="incident">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Assign Incident to Case</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	//assign this incident to a case if a case exists for this user.  Do not create, as case managers will handle that if need be
+
+	var cs = new GlideRecord('x_casus_csm_case');
+	cs.addQuery('client', current.caller_id.sys_id);
+	cs.addQuery('assignment_group', current.assignment_group);
+	cs.addActiveQuery();
+	cs.query();
+	
+	if(cs.next()) {
+		//is this item already linked to a case?
+		var m2m = new GlideRecord('x_casus_csm_m2m_tasks_cases');
+		m2m.addQuery('task', current.sys_id);
+		m2m.query();
+
+		if(!m2m.next()) {
+			m2m.initialize();
+
+			m2m.task = current.sys_id;
+			m2m.setValue('case', cs.sys_id);
+			m2m.task_type = 'incident';
+			m2m.short_description = current.short_description;
+			m2m.state = current.state.getDisplayValue();
+
+			//update worknotes before m2m insert to avoid worknotes on m2m table running and duplicating comments.
+			current.work_notes = "Incident added to case " + cs.number;
+			current.update();
+
+			m2m.insert();
+
+			cs.work_notes = current.number + " added to this case";
+			cs.update();
+		}
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-08 21:47:55</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>7d313ae06f5bb600ad6cd4a21c3ee4d7</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_name>Assign Incident to Case</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
+        <sys_update_name>sys_script_7d313ae06f5bb600ad6cd4a21c3ee4d7</sys_update_name>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-08 22:53:00</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+</record_update>

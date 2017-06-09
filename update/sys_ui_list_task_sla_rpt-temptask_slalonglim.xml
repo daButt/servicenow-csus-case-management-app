@@ -1,97 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_casus_csm_case" version="2" view="rpt-tempb1e406200f57b60012e4348ce1050e2flonglim">
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="task_sla" version="2" view="rpt-temptask_slalonglim">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>number</element>
-            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="8ae40e200f57b60012e4348ce1050ebe">22dfb2306fdfb600ad6cd4a21c3ee4c7</list_id>
+            <element>sla</element>
+            <list_id display_value="task_sla" element="NULL" name="task_sla" parent="NULL" relationship="NULL" sys_domain="global" view="adfe22240f97b60012e4348ce1050e07">887f26240f97b60012e4348ce1050e48</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>longlim</sys_created_by>
-            <sys_created_on>2017-06-09 17:20:25</sys_created_on>
-            <sys_id>66dfb2306fdfb600ad6cd4a21c3ee4c7</sys_id>
+            <sys_created_on>2017-06-08 21:30:14</sys_created_on>
+            <sys_id>cc7f26240f97b60012e4348ce1050e48</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>longlim</sys_updated_by>
-            <sys_updated_on>2017-06-09 17:20:25</sys_updated_on>
+            <sys_updated_on>2017-06-08 21:30:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>state</element>
-            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="8ae40e200f57b60012e4348ce1050ebe">22dfb2306fdfb600ad6cd4a21c3ee4c7</list_id>
+            <element>stage</element>
+            <list_id display_value="task_sla" element="NULL" name="task_sla" parent="NULL" relationship="NULL" sys_domain="global" view="adfe22240f97b60012e4348ce1050e07">887f26240f97b60012e4348ce1050e48</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>longlim</sys_created_by>
-            <sys_created_on>2017-06-09 17:20:25</sys_created_on>
-            <sys_id>e6dfb2306fdfb600ad6cd4a21c3ee4c7</sys_id>
+            <sys_created_on>2017-06-08 21:30:14</sys_created_on>
+            <sys_id>407f26240f97b60012e4348ce1050e49</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>longlim</sys_updated_by>
-            <sys_updated_on>2017-06-09 17:20:25</sys_updated_on>
+            <sys_updated_on>2017-06-08 21:30:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>client</element>
-            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="8ae40e200f57b60012e4348ce1050ebe">22dfb2306fdfb600ad6cd4a21c3ee4c7</list_id>
+            <element>start_time</element>
+            <list_id display_value="task_sla" element="NULL" name="task_sla" parent="NULL" relationship="NULL" sys_domain="global" view="adfe22240f97b60012e4348ce1050e07">887f26240f97b60012e4348ce1050e48</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>longlim</sys_created_by>
-            <sys_created_on>2017-06-09 17:20:25</sys_created_on>
-            <sys_id>6adfb2306fdfb600ad6cd4a21c3ee4c7</sys_id>
+            <sys_created_on>2017-06-08 21:30:14</sys_created_on>
+            <sys_id>c07f26240f97b60012e4348ce1050e49</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>longlim</sys_updated_by>
-            <sys_updated_on>2017-06-09 17:20:25</sys_updated_on>
+            <sys_updated_on>2017-06-08 21:30:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_created_on</element>
-            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="8ae40e200f57b60012e4348ce1050ebe">22dfb2306fdfb600ad6cd4a21c3ee4c7</list_id>
+            <element>planned_end_time</element>
+            <list_id display_value="task_sla" element="NULL" name="task_sla" parent="NULL" relationship="NULL" sys_domain="global" view="adfe22240f97b60012e4348ce1050e07">887f26240f97b60012e4348ce1050e48</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>longlim</sys_created_by>
-            <sys_created_on>2017-06-09 17:20:25</sys_created_on>
-            <sys_id>eadfb2306fdfb600ad6cd4a21c3ee4c7</sys_id>
+            <sys_created_on>2017-06-08 21:30:14</sys_created_on>
+            <sys_id>447f26240f97b60012e4348ce1050e49</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>longlim</sys_updated_by>
-            <sys_updated_on>2017-06-09 17:20:25</sys_updated_on>
+            <sys_updated_on>2017-06-08 21:30:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>sys_updated_on</element>
-            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="8ae40e200f57b60012e4348ce1050ebe">22dfb2306fdfb600ad6cd4a21c3ee4c7</list_id>
+            <list_id display_value="task_sla" element="NULL" name="task_sla" parent="NULL" relationship="NULL" sys_domain="global" view="adfe22240f97b60012e4348ce1050e07">887f26240f97b60012e4348ce1050e48</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>longlim</sys_created_by>
-            <sys_created_on>2017-06-09 17:20:25</sys_created_on>
-            <sys_id>6edfb2306fdfb600ad6cd4a21c3ee4c7</sys_id>
+            <sys_created_on>2017-06-08 21:30:14</sys_created_on>
+            <sys_id>c47f26240f97b60012e4348ce1050e49</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>longlim</sys_updated_by>
-            <sys_updated_on>2017-06-09 17:20:25</sys_updated_on>
+            <sys_updated_on>2017-06-08 21:30:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element/>
             <max_value>false</max_value>
             <min_value>false</min_value>
-            <name>x_casus_csm_case</name>
+            <name>task_sla</name>
             <parent/>
             <position/>
             <relationship/>
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>longlim</sys_created_by>
-            <sys_created_on>2017-06-09 17:20:25</sys_created_on>
+            <sys_created_on>2017-06-08 21:30:14</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>22dfb2306fdfb600ad6cd4a21c3ee4c7</sys_id>
+            <sys_id>887f26240f97b60012e4348ce1050e48</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name/>
             <sys_package/>
@@ -100,9 +100,9 @@
             <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
             <sys_update_name/>
             <sys_updated_by>longlim</sys_updated_by>
-            <sys_updated_on>2017-06-09 17:20:25</sys_updated_on>
+            <sys_updated_on>2017-06-08 21:30:14</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt-tempb1e406200f57b60012e4348ce1050e2flonglim" name="rpt-tempb1e406200f57b60012e4348ce1050e2flonglim">8ae40e200f57b60012e4348ce1050ebe</view>
+            <view display_value="Rpt-temptask_slalonglim" name="rpt-temptask_slalonglim">adfe22240f97b60012e4348ce1050e07</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>
