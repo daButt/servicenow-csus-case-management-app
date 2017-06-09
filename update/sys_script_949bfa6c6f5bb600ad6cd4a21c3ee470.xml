@@ -45,12 +45,7 @@
 		if(rec.get(current.task)) {
 			
 			rec.work_notes = "Removed from case " + cs.number;
-			rec.setWorkflow(false);
 			rec.update();
-			rec.setWorkflow(true);
-			
-			cs.work_notes = rec.number + " removed from this case";
-			cs.update();
 		}
 	}
 	
@@ -63,7 +58,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>949bfa6c6f5bb600ad6cd4a21c3ee470</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>M2m Item Removed from Case</sys_name>
         <sys_overrides/>
         <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
@@ -72,7 +67,7 @@
         <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
         <sys_update_name>sys_script_949bfa6c6f5bb600ad6cd4a21c3ee470</sys_update_name>
         <sys_updated_by>nicholasmyers</sys_updated_by>
-        <sys_updated_on>2017-06-08 23:17:48</sys_updated_on>
+        <sys_updated_on>2017-06-09 22:51:18</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
