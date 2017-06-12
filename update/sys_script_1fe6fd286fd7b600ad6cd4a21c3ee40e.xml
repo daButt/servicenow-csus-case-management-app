@@ -55,7 +55,8 @@
 		
 		if(cs.get(m2m.getValue('case'))) {
 			
-			var stringToPost = current.number + " updated:\n\n"; //concat all changes into one update, not to flood the activity
+			var stringToPost = current.number + " updated:\n\n"; //concat all changes into one update, not to flood the activity, worknotes
+			var ctsToPost = current.number + " updated:\n\n"; //bubble comments up
 			var updateM2m = false; //flag to trigger m2m update when an important field changes on task
 			
 			//determine which was updated, and note those changes, and update state in the m2m record
@@ -78,7 +79,7 @@
 			} 
 			
 			if(current.comments.changes()) {
-				stringToPost += current.comments.getJournalEntry(1);
+				ctsToPost += current.comments.getJournalEntry(1);
 			}
 			
 			if(updateM2m) {
@@ -86,6 +87,7 @@
 			}
 			
 			cs.work_notes = stringToPost;
+			cs.comments = ctsToPost;
 			cs.update();
 		}	
 	}
@@ -97,7 +99,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>1fe6fd286fd7b600ad6cd4a21c3ee40e</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Update Case Rel Record Comments / State</sys_name>
         <sys_overrides/>
         <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
@@ -106,7 +108,7 @@
         <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
         <sys_update_name>sys_script_1fe6fd286fd7b600ad6cd4a21c3ee40e</sys_update_name>
         <sys_updated_by>nicholasmyers</sys_updated_by>
-        <sys_updated_on>2017-06-08 19:38:59</sys_updated_on>
+        <sys_updated_on>2017-06-12 16:57:58</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
