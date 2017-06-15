@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Hides the additional comments fields on the case form if the case team is LMS. Intention is to ensure case managers are using emails over sending comment emails.</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>Hide comments for LMS case managers</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //hide additional comments field for case managers
+	var view = g_form.getParameter('view');
+	
+	if(view == 'LMS') {
+		if(g_user.hasRoleExactly('x_casus_csm.case_manager')) { //don't hide field from admins
+			g_form.setDisplay('comments', false);
+		}
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-15 18:48:19</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>c05cc67e0f577a0012e4348ce1050e89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide comments for LMS case managers</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
+        <sys_update_name>sys_script_client_c05cc67e0f577a0012e4348ce1050e89</sys_update_name>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-15 18:48:19</sys_updated_on>
+        <table>x_casus_csm_case</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

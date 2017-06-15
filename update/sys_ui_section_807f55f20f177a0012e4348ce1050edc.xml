@@ -5,13 +5,13 @@
             <element>lms_feature_collaborate</element>
             <position>0</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
-            <sys_id>972061360f177a0012e4348ce1050ed1</sys_id>
+            <sys_created_on>2017-06-15 18:15:35</sys_created_on>
+            <sys_id>950686f60f577a0012e4348ce1050ec3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_updated_on>2017-06-15 18:15:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>lms_feature_mindlinks</element>
             <position>1</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
-            <sys_id>1b2061360f177a0012e4348ce1050ed1</sys_id>
+            <sys_created_on>2017-06-15 18:15:35</sys_created_on>
+            <sys_id>190686f60f577a0012e4348ce1050ec3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_updated_on>2017-06-15 18:15:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>lms_feature_discover</element>
             <position>2</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
-            <sys_id>9b2061360f177a0012e4348ce1050ed1</sys_id>
+            <sys_created_on>2017-06-15 18:15:35</sys_created_on>
+            <sys_id>990686f60f577a0012e4348ce1050ec3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_updated_on>2017-06-15 18:15:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>lms_feature_grade_export</element>
             <position>3</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
-            <sys_id>1f2061360f177a0012e4348ce1050ed1</sys_id>
+            <sys_created_on>2017-06-15 18:15:35</sys_created_on>
+            <sys_id>1d0686f60f577a0012e4348ce1050ec3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_updated_on>2017-06-15 18:15:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>lms_feature_inquizitive</element>
             <position>4</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
-            <sys_id>9f2061360f177a0012e4348ce1050ed1</sys_id>
+            <sys_created_on>2017-06-15 18:15:35</sys_created_on>
+            <sys_id>9d0686f60f577a0012e4348ce1050ec3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_updated_on>2017-06-15 18:15:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>lms_feature_connect_create</element>
             <position>5</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
-            <sys_id>132061360f177a0012e4348ce1050ed2</sys_id>
+            <sys_created_on>2017-06-15 18:15:35</sys_created_on>
+            <sys_id>110686f60f577a0012e4348ce1050ec4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_updated_on>2017-06-15 18:15:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -89,13 +89,13 @@
             <element>lms_feature_mediasite</element>
             <position>6</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
-            <sys_id>932061360f177a0012e4348ce1050ed2</sys_id>
+            <sys_created_on>2017-06-15 18:15:35</sys_created_on>
+            <sys_id>910686f60f577a0012e4348ce1050ec4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_updated_on>2017-06-15 18:15:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -103,13 +103,13 @@
             <element>lms_feature_mindedge</element>
             <position>7</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
-            <sys_id>172061360f177a0012e4348ce1050ed2</sys_id>
+            <sys_created_on>2017-06-15 18:15:35</sys_created_on>
+            <sys_id>150686f60f577a0012e4348ce1050ec4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_updated_on>2017-06-15 18:15:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -117,13 +117,13 @@
             <element>lms_feature_mylab</element>
             <position>8</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
-            <sys_id>972061360f177a0012e4348ce1050ed2</sys_id>
+            <sys_created_on>2017-06-15 18:15:35</sys_created_on>
+            <sys_id>950686f60f577a0012e4348ce1050ec4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_updated_on>2017-06-15 18:15:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -131,13 +131,13 @@
             <element>.split</element>
             <position>9</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
-            <sys_id>1b2061360f177a0012e4348ce1050ed2</sys_id>
+            <sys_created_on>2017-06-15 18:15:35</sys_created_on>
+            <sys_id>190686f60f577a0012e4348ce1050ec4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_updated_on>2017-06-15 18:15:35</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -145,13 +145,13 @@
             <element>lms_feature_poll_everywhere</element>
             <position>10</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
-            <sys_id>9b2061360f177a0012e4348ce1050ed2</sys_id>
+            <sys_created_on>2017-06-15 18:15:35</sys_created_on>
+            <sys_id>990686f60f577a0012e4348ce1050ec4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_updated_on>2017-06-15 18:15:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -159,13 +159,13 @@
             <element>lms_feature_lockdown_browser</element>
             <position>11</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
-            <sys_id>1f2061360f177a0012e4348ce1050ed2</sys_id>
+            <sys_created_on>2017-06-15 18:15:35</sys_created_on>
+            <sys_id>1d0686f60f577a0012e4348ce1050ec4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_updated_on>2017-06-15 18:15:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -173,13 +173,13 @@
             <element>lms_feature_smartthinking</element>
             <position>12</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
-            <sys_id>9f2061360f177a0012e4348ce1050ed2</sys_id>
+            <sys_created_on>2017-06-15 18:15:35</sys_created_on>
+            <sys_id>9d0686f60f577a0012e4348ce1050ec4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_updated_on>2017-06-15 18:15:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -187,13 +187,13 @@
             <element>lms_feature_softchalk</element>
             <position>13</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
-            <sys_id>132061360f177a0012e4348ce1050ed3</sys_id>
+            <sys_created_on>2017-06-15 18:15:35</sys_created_on>
+            <sys_id>110686f60f577a0012e4348ce1050ec5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_updated_on>2017-06-15 18:15:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -201,13 +201,13 @@
             <element>lms_feature_turning_cloud</element>
             <position>14</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
-            <sys_id>a32061360f177a0012e4348ce1050ed3</sys_id>
+            <sys_created_on>2017-06-15 18:15:35</sys_created_on>
+            <sys_id>910686f60f577a0012e4348ce1050ec5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_updated_on>2017-06-15 18:15:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -215,13 +215,13 @@
             <element>lms_feature_turning_technologies</element>
             <position>15</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
-            <sys_id>272061360f177a0012e4348ce1050ed3</sys_id>
+            <sys_created_on>2017-06-15 18:15:35</sys_created_on>
+            <sys_id>150686f60f577a0012e4348ce1050ec5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_updated_on>2017-06-15 18:15:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -229,13 +229,13 @@
             <element>lms_feature_turnitin</element>
             <position>16</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
-            <sys_id>a72061360f177a0012e4348ce1050ed3</sys_id>
+            <sys_created_on>2017-06-15 18:15:35</sys_created_on>
+            <sys_id>950686f60f577a0012e4348ce1050ec5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_updated_on>2017-06-15 18:15:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -243,13 +243,27 @@
             <element>lms_feature_wiley</element>
             <position>17</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
-            <sys_id>2b2061360f177a0012e4348ce1050ed3</sys_id>
+            <sys_created_on>2017-06-15 18:15:35</sys_created_on>
+            <sys_id>190686f60f577a0012e4348ce1050ec5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_updated_on>2017-06-15 18:15:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lms_feature_zoom</element>
+            <position>18</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-15 18:15:35</sys_created_on>
+            <sys_id>990686f60f577a0012e4348ce1050ec5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-15 18:15:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

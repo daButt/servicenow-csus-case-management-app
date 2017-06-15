@@ -21,7 +21,7 @@
         <set_start_to>sys_created_on</set_start_to>
         <start_condition table="x_casus_csm_case">stateNOT IN45,9,3^sys_updated_bySAMEASclient.user_name^assignment_group=7eaadfe70f83760012e4348ce1050ec2^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="45,9,3"/>
             <item endquery="false" field="sys_updated_by" goto="false" newquery="false" operator="SAMEAS" or="false" value="client.user_name"/>
-            <item display_table="sys_user_group" display_value="IRT LMS" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="7eaadfe70f83760012e4348ce1050ec2"/>
+            <item display_table="sys_user_group" display_value="IRT Canvas" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="7eaadfe70f83760012e4348ce1050ec2"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </start_condition>
         <stop_condition table="x_casus_csm_case">stateIN45,3^ORsys_updated_byNSAMEASclient.user_name^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="45,3"/>

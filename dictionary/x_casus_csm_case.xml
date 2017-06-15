@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="live_feed=true,email_client=true" audit="true" extends="task" label="Case" max_length="40" name="x_casus_csm_case" sizeclass="11" type="collection">
-        <element label="Canvas Course" max_length="40" name="canvas_course" type="string"/>
+    <element attributes="live_feed=true,email_client=true" audit="true" extends="task" label="Case" max_length="40" name="x_casus_csm_case" sizeclass="15" type="collection">
+        <element label="Spring 2018 Canvas Course(s)" max_length="40" name="canvas_course" type="string"/>
         <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=user_name;employee_number,ref_ac_order_by=name,ref_ac_columns_search=true" label="Client" mandatory="true" max_length="32" name="client" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Contact email" max_length="40" name="contact_email" type="string"/>
         <element label="Contact phone" max_length="40" name="contact_phone" type="string"/>
@@ -23,6 +23,7 @@
         <element label="Turning Technologies" max_length="40" name="lms_feature_turning_technologies" type="boolean"/>
         <element label="Turnitin Direct Assignment" max_length="40" name="lms_feature_turnitin" type="boolean"/>
         <element label="WileyPLUS" max_length="40" name="lms_feature_wiley" type="boolean"/>
+        <element label="Zoom" max_length="40" name="lms_feature_zoom" type="boolean"/>
         <element label="One-on-one in person" max_length="40" name="one_on_one_person" type="boolean"/>
         <element label="One-on-one remote (email, phone, web)" max_length="40" name="one_on_one_remote" type="boolean"/>
         <element label="Online tutorials, documentation, and other self-support tools" max_length="40" name="online_tutorials" type="boolean"/>

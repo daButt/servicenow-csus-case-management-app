@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sys_report_users_groups">
     <sys_report_users_groups action="INSERT_OR_UPDATE">
-        <group_id display_value="IRT LMS" name="IRT LMS">7eaadfe70f83760012e4348ce1050ec2</group_id>
+        <group_id display_value="IRT Canvas" name="IRT Canvas">7eaadfe70f83760012e4348ce1050ec2</group_id>
         <report_id display_value="All Completed Team Cases">4f7506200f57b60012e4348ce1050e12</report_id>
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>longlim</sys_created_by>

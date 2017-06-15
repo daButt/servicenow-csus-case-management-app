@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record_update node_type="sys_portal_page" unload_date="2017-06-15 15:51:14">
+<record_update node_type="sys_portal_page" unload_date="2017-06-15 20:30:19">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout display_value="layout_3_across">f6df4af10a0a0b120070a45fa26bf4f3</layout>
         <order/>
@@ -9,10 +9,10 @@
         <sys_class_name>sys_portal_page</sys_class_name>
         <sys_created_by>longlim</sys_created_by>
         <sys_created_on>2017-06-08 18:33:36</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>51d64a600f57b60012e4348ce1050e01</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Case Manager Homepage</sys_name>
         <sys_overrides/>
         <sys_package/>
@@ -21,9 +21,9 @@
         <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
         <sys_update_name>sys_portal_page_51d64a600f57b60012e4348ce1050e01</sys_update_name>
         <sys_updated_by>longlim</sys_updated_by>
-        <sys_updated_on>2017-06-15 06:32:22</sys_updated_on>
+        <sys_updated_on>2017-06-15 17:57:35</sys_updated_on>
         <title>Case Manager Homepage</title>
-        <user display_value="Long Lim">556a595030e0e400edaea43dafbaab53</user>
+        <user/>
         <view>case_management_user</view>
         <related_items_node>
             <sys_portal action="INSERT_OR_UPDATE">
@@ -40,7 +40,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>subscriber_widget</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>037863ae6f177a00ad6cd4a21c3ee4c0</sys_id>
@@ -51,7 +51,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>077863ae6f177a00ad6cd4a21c3ee4bf</sys_id>
@@ -62,7 +62,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title_size</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>0b7863ae6f177a00ad6cd4a21c3ee4be</sys_id>
@@ -73,7 +73,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>current_page</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>0f7863ae6f177a00ad6cd4a21c3ee4c0</sys_id>
@@ -84,7 +84,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>437863ae6f177a00ad6cd4a21c3ee4bf</sys_id>
@@ -95,7 +95,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>filter_indicator</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>477863ae6f177a00ad6cd4a21c3ee4be</sys_id>
@@ -106,7 +106,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>widget_height</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>4b7863ae6f177a00ad6cd4a21c3ee4c0</sys_id>
@@ -117,7 +117,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>4f7863ae6f177a00ad6cd4a21c3ee4bf</sys_id>
@@ -128,7 +128,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>837863ae6f177a00ad6cd4a21c3ee4be</sys_id>
@@ -139,7 +139,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>publisher_widget</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>877863ae6f177a00ad6cd4a21c3ee4c0</sys_id>
@@ -150,7 +150,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>8b7863ae6f177a00ad6cd4a21c3ee4bf</sys_id>
@@ -161,7 +161,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>show_border</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>8f7863ae6f177a00ad6cd4a21c3ee4be</sys_id>
@@ -172,7 +172,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>show_title</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>c37863ae6f177a00ad6cd4a21c3ee4c0</sys_id>
@@ -183,7 +183,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>c77863ae6f177a00ad6cd4a21c3ee4bf</sys_id>
@@ -194,7 +194,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>real_time</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>cb7863ae6f177a00ad6cd4a21c3ee4be</sys_id>
@@ -205,7 +205,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title_align</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">8f7863ae6f177a00ad6cd4a21c3ee4bd</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>cf7863ae6f177a00ad6cd4a21c3ee4bd</sys_id>
@@ -230,7 +230,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b6</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b6</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>037863ae6f177a00ad6cd4a21c3ee4b7</sys_id>
@@ -241,7 +241,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b6</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b6</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:18</sys_created_on>
                         <sys_id>077863ae6f177a00ad6cd4a21c3ee4b6</sys_id>
@@ -252,7 +252,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b6</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b6</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>4f7863ae6f177a00ad6cd4a21c3ee4b6</sys_id>
@@ -263,7 +263,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>current_page</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b6</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b6</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>877863ae6f177a00ad6cd4a21c3ee4b7</sys_id>
@@ -274,7 +274,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b6</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b6</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>8b7863ae6f177a00ad6cd4a21c3ee4b6</sys_id>
@@ -285,7 +285,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b6</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b6</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>c37863ae6f177a00ad6cd4a21c3ee4b7</sys_id>
@@ -296,7 +296,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b6</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b6</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:18</sys_created_on>
                         <sys_id>c77863ae6f177a00ad6cd4a21c3ee4b6</sys_id>
@@ -321,7 +321,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b9</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b9</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>037863ae6f177a00ad6cd4a21c3ee4ba</sys_id>
@@ -332,7 +332,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b9</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b9</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>077863ae6f177a00ad6cd4a21c3ee4b9</sys_id>
@@ -343,7 +343,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b9</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b9</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>4f7863ae6f177a00ad6cd4a21c3ee4b9</sys_id>
@@ -354,7 +354,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>current_page</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b9</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b9</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>877863ae6f177a00ad6cd4a21c3ee4ba</sys_id>
@@ -365,7 +365,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b9</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b9</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>8b7863ae6f177a00ad6cd4a21c3ee4b9</sys_id>
@@ -376,7 +376,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b9</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b9</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>c37863ae6f177a00ad6cd4a21c3ee4ba</sys_id>
@@ -387,7 +387,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b9</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">c37863ae6f177a00ad6cd4a21c3ee4b9</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>c77863ae6f177a00ad6cd4a21c3ee4b9</sys_id>
@@ -412,7 +412,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:18">cb7863ae6f177a00ad6cd4a21c3ee4b4</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:18">cb7863ae6f177a00ad6cd4a21c3ee4b4</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:18</sys_created_on>
                         <sys_id>0b7863ae6f177a00ad6cd4a21c3ee4b5</sys_id>
@@ -423,7 +423,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:18">cb7863ae6f177a00ad6cd4a21c3ee4b4</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:18">cb7863ae6f177a00ad6cd4a21c3ee4b4</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:18</sys_created_on>
                         <sys_id>0f7863ae6f177a00ad6cd4a21c3ee4b4</sys_id>
@@ -434,7 +434,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:18">cb7863ae6f177a00ad6cd4a21c3ee4b4</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:18">cb7863ae6f177a00ad6cd4a21c3ee4b4</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:18</sys_created_on>
                         <sys_id>477863ae6f177a00ad6cd4a21c3ee4b5</sys_id>
@@ -445,7 +445,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:18">cb7863ae6f177a00ad6cd4a21c3ee4b4</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:18">cb7863ae6f177a00ad6cd4a21c3ee4b4</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:18</sys_created_on>
                         <sys_id>837863ae6f177a00ad6cd4a21c3ee4b5</sys_id>
@@ -456,7 +456,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>current_page</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:18">cb7863ae6f177a00ad6cd4a21c3ee4b4</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:18">cb7863ae6f177a00ad6cd4a21c3ee4b4</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:18</sys_created_on>
                         <sys_id>8f7863ae6f177a00ad6cd4a21c3ee4b5</sys_id>
@@ -467,7 +467,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:18">cb7863ae6f177a00ad6cd4a21c3ee4b4</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:18">cb7863ae6f177a00ad6cd4a21c3ee4b4</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:18</sys_created_on>
                         <sys_id>cb7863ae6f177a00ad6cd4a21c3ee4b5</sys_id>
@@ -478,7 +478,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:18">cb7863ae6f177a00ad6cd4a21c3ee4b4</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:18">cb7863ae6f177a00ad6cd4a21c3ee4b4</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:18</sys_created_on>
                         <sys_id>cf7863ae6f177a00ad6cd4a21c3ee4b4</sys_id>
@@ -503,7 +503,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4b7</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4b7</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>0b7863ae6f177a00ad6cd4a21c3ee4b8</sys_id>
@@ -514,7 +514,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4b7</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4b7</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>0f7863ae6f177a00ad6cd4a21c3ee4b7</sys_id>
@@ -525,7 +525,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4b7</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4b7</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>477863ae6f177a00ad6cd4a21c3ee4b8</sys_id>
@@ -536,7 +536,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4b7</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4b7</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>837863ae6f177a00ad6cd4a21c3ee4b8</sys_id>
@@ -547,7 +547,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>current_page</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4b7</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4b7</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>8f7863ae6f177a00ad6cd4a21c3ee4b8</sys_id>
@@ -558,7 +558,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4b7</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4b7</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>cb7863ae6f177a00ad6cd4a21c3ee4b8</sys_id>
@@ -569,7 +569,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4b7</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4b7</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>cf7863ae6f177a00ad6cd4a21c3ee4b7</sys_id>
@@ -594,7 +594,7 @@
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>publisher_widget</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>037863ae6f177a00ad6cd4a21c3ee4bd</sys_id>
@@ -605,7 +605,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>077863ae6f177a00ad6cd4a21c3ee4bc</sys_id>
@@ -616,7 +616,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>real_time</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>0b7863ae6f177a00ad6cd4a21c3ee4bb</sys_id>
@@ -627,7 +627,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title_align</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>0f7863ae6f177a00ad6cd4a21c3ee4ba</sys_id>
@@ -638,7 +638,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>report_type</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>437863ae6f177a00ad6cd4a21c3ee4bc</sys_id>
@@ -649,7 +649,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title_size</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>477863ae6f177a00ad6cd4a21c3ee4bb</sys_id>
@@ -660,7 +660,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>current_page</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>4b7863ae6f177a00ad6cd4a21c3ee4bd</sys_id>
@@ -671,7 +671,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>subscriber_widget</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>4f7863ae6f177a00ad6cd4a21c3ee4bc</sys_id>
@@ -682,7 +682,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>filter_indicator</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>837863ae6f177a00ad6cd4a21c3ee4bb</sys_id>
@@ -693,7 +693,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>show_title</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>877863ae6f177a00ad6cd4a21c3ee4bd</sys_id>
@@ -704,7 +704,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>help_text_window</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>8b7863ae6f177a00ad6cd4a21c3ee4bc</sys_id>
@@ -715,7 +715,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>can_subscribe</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>8f7863ae6f177a00ad6cd4a21c3ee4bb</sys_id>
@@ -726,7 +726,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>widget_height</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>c37863ae6f177a00ad6cd4a21c3ee4bd</sys_id>
@@ -737,7 +737,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>c77863ae6f177a00ad6cd4a21c3ee4bc</sys_id>
@@ -748,7 +748,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>show_border</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>cb7863ae6f177a00ad6cd4a21c3ee4bb</sys_id>
@@ -759,7 +759,7 @@
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 06-14-2017 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
+                        <portal_section display_value="Created 2017-06-14 23:47:19">cb7863ae6f177a00ad6cd4a21c3ee4ba</portal_section>
                         <sys_created_by>longlim</sys_created_by>
                         <sys_created_on>2017-06-15 06:47:19</sys_created_on>
                         <sys_id>cf7863ae6f177a00ad6cd4a21c3ee4ba</sys_id>

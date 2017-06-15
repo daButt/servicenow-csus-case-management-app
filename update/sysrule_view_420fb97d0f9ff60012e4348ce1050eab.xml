@@ -3,7 +3,7 @@
     <sysrule_view action="INSERT_OR_UPDATE">
         <active>true</active>
         <advanced>false</advanced>
-        <condition table="x_casus_csm_case">assignment_group=7eaadfe70f83760012e4348ce1050ec2^EQ<item display_table="sys_user_group" display_value="IRT LMS" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="7eaadfe70f83760012e4348ce1050ec2"/>
+        <condition table="x_casus_csm_case">assignment_group=7eaadfe70f83760012e4348ce1050ec2^EQ<item display_table="sys_user_group" display_value="IRT Canvas" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="7eaadfe70f83760012e4348ce1050ec2"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description/>

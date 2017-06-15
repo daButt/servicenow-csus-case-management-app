@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>false</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_casus_csm_m2m_cases_reservations</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>M2m Reservation Delete</name>
+        <onclick/>
+        <order>125</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+	var cs = new GlideRecord('x_casus_csm_case');
+	var rs = new GlideRecord('x_casus_reservatio_reservation');
+	
+	cs.get(current.getValue('case'));
+	rs.get(current.getValue('reservation'));
+	
+	gs.addInfoMessage('Reservation: ' + current['reservation'].number + cs.number);
+	gs.addInfoMessage('Case: ' + current['case'].number + rs.number);
+
+	//current['case'].work_notes = "Removed Reservation " + current['reservation'].number;
+	//current['reservation'].notes = "Removed Case " + current['case'].number;
+	
+	//current['case'].update();
+	//current['reservation'].update();
+	
+	cs.work_notes = "Removed Reservation " + cs.number;
+	rs.notes = "Removed Case " + rs.number;
+	
+	cs.update();
+	rs.update();
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>gg622</sys_created_by>
+        <sys_created_on>2017-06-15 19:43:48</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>da9696ba6f1b7a00ad6cd4a21c3ee44a</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>M2m Reservation Delete</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
+        <sys_update_name>sys_script_da9696ba6f1b7a00ad6cd4a21c3ee44a</sys_update_name>
+        <sys_updated_by>gg622</sys_updated_by>
+        <sys_updated_on>2017-06-15 20:28:11</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+</record_update>

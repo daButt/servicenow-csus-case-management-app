@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="canvas_course" label="Spring 2018 Canvas Course(s)" language="en" table="x_casus_csm_case">
+    <sys_documentation element="lms_feature_zoom" label="Zoom" language="en" table="x_casus_csm_case">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>canvas_course</element>
+            <element>lms_feature_zoom</element>
             <help/>
             <hint/>
-            <label>Spring 2018 Canvas Course(s)</label>
+            <label>Zoom</label>
             <language>en</language>
             <name>x_casus_csm_case</name>
-            <plural>Spring 2018 Canvas Course(s)</plural>
+            <plural>Zooms</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-12 14:51:09</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
-            <sys_id>557af9f90f9ff60012e4348ce1050e71</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Spring 2018 Canvas Course(s)</sys_name>
+            <sys_created_on>2017-06-15 18:14:20</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>f6b58ab60f577a0012e4348ce1050efd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Zoom</sys_name>
             <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
-            <sys_update_name>sys_documentation_x_casus_csm_case_canvas_course_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_casus_csm_case_lms_feature_zoom_en</sys_update_name>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-15 18:13:45</sys_updated_on>
+            <sys_updated_on>2017-06-15 18:14:20</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
