@@ -49,10 +49,11 @@
 		m2m.initialize();
 		m2m.setValue('case', cs.sys_id);
 		m2m.reservation = current.sys_id;
+		m2m.date = current.start;
 		m2m.insert();
 		
-		cs.work_notes = "Added Reservation " + current.number;
-		current.notes = "Added Case " + cs.number;
+		cs.work_notes = "Added Reservation: " + current.number + "\n\nStart Time: " + current.start;
+		current.notes = "Added Case: " + cs.number;
 		cs.update();
 		current.update();
 	}
@@ -64,7 +65,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>4c2a4cd26f9b3a00ad6cd4a21c3ee4c2</sys_id>
-        <sys_mod_count>13</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>M2m Reservation Add</sys_name>
         <sys_overrides/>
         <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
@@ -73,7 +74,7 @@
         <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
         <sys_update_name>sys_script_4c2a4cd26f9b3a00ad6cd4a21c3ee4c2</sys_update_name>
         <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-13 22:38:31</sys_updated_on>
+        <sys_updated_on>2017-06-15 20:50:02</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
