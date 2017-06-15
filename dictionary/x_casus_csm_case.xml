@@ -6,6 +6,23 @@
         <element label="Contact email" max_length="40" name="contact_email" type="string"/>
         <element label="Contact phone" max_length="40" name="contact_phone" type="string"/>
         <element label="In person workshops" max_length="40" name="in_person_workshops" type="boolean"/>
+        <element label="Blackboard Collaborate" max_length="40" name="lms_feature_collaborate" type="boolean"/>
+        <element label="McGraw-Hill Connect &amp; Create" max_length="40" name="lms_feature_connect_create" type="boolean"/>
+        <element label="Follett Discover" max_length="40" name="lms_feature_discover" type="boolean"/>
+        <element label="Grade export to CMS / PeopleSoft" max_length="40" name="lms_feature_grade_export" type="boolean"/>
+        <element label="InQuizitive" max_length="40" name="lms_feature_inquizitive" type="boolean"/>
+        <element label="Respondus LockDown Browser" max_length="40" name="lms_feature_lockdown_browser" type="boolean"/>
+        <element label="Mediasite" max_length="40" name="lms_feature_mediasite" type="boolean"/>
+        <element label="MindEdge Learning" max_length="40" name="lms_feature_mindedge" type="boolean"/>
+        <element label="Cengage Learning Mindlink" max_length="40" name="lms_feature_mindlinks" type="boolean"/>
+        <element label="Pearson's MyLab &amp; Mastering" max_length="40" name="lms_feature_mylab" type="boolean"/>
+        <element label="Poll Everywhere" max_length="40" name="lms_feature_poll_everywhere" type="boolean"/>
+        <element label="Smartthinking" max_length="40" name="lms_feature_smartthinking" type="boolean"/>
+        <element label="SoftChalk" max_length="40" name="lms_feature_softchalk" type="boolean"/>
+        <element label="Turning Point Cloud" max_length="40" name="lms_feature_turning_cloud" type="boolean"/>
+        <element label="Turning Technologies" max_length="40" name="lms_feature_turning_technologies" type="boolean"/>
+        <element label="Turnitin Direct Assignment" max_length="40" name="lms_feature_turnitin" type="boolean"/>
+        <element label="WileyPLUS" max_length="40" name="lms_feature_wiley" type="boolean"/>
         <element label="One-on-one in person" max_length="40" name="one_on_one_person" type="boolean"/>
         <element label="One-on-one remote (email, phone, web)" max_length="40" name="one_on_one_remote" type="boolean"/>
         <element label="Online tutorials, documentation, and other self-support tools" max_length="40" name="online_tutorials" type="boolean"/>

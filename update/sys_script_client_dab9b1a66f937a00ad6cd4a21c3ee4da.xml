@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Hide form sections that are not comments from the end user.</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>Hide Form Sections from End User</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//if the user is not a case manager, do not show the other form sections
+	if(!g_user.hasRole('x_casus_csm.case_manager')) {
+		//add additional section when necessary
+
+		//Default View
+		g_form.setSectionDisplay('support_methodsused', false);
+
+		//LMS View
+		g_form.setSectionDisplay('course_information', false);
+		g_form.setSectionDisplay('integrations_used', false);
+
+		//other views here
+	} 
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-14 22:47:45</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>dab9b1a66f937a00ad6cd4a21c3ee4da</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Hide Form Sections from End User</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
+        <sys_update_name>sys_script_client_dab9b1a66f937a00ad6cd4a21c3ee4da</sys_update_name>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-15 15:31:09</sys_updated_on>
+        <table>x_casus_csm_case</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

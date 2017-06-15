@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Integrations Used" section_id="807f55f20f177a0012e4348ce1050edc" sys_domain="global" table="x_casus_csm_case" version="3" view="LMS">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lms_feature_collaborate</element>
+            <position>0</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
+            <sys_id>972061360f177a0012e4348ce1050ed1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lms_feature_mindlinks</element>
+            <position>1</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
+            <sys_id>1b2061360f177a0012e4348ce1050ed1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lms_feature_discover</element>
+            <position>2</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
+            <sys_id>9b2061360f177a0012e4348ce1050ed1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lms_feature_grade_export</element>
+            <position>3</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
+            <sys_id>1f2061360f177a0012e4348ce1050ed1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lms_feature_inquizitive</element>
+            <position>4</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
+            <sys_id>9f2061360f177a0012e4348ce1050ed1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lms_feature_connect_create</element>
+            <position>5</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
+            <sys_id>132061360f177a0012e4348ce1050ed2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lms_feature_mediasite</element>
+            <position>6</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
+            <sys_id>932061360f177a0012e4348ce1050ed2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lms_feature_mindedge</element>
+            <position>7</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
+            <sys_id>172061360f177a0012e4348ce1050ed2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lms_feature_mylab</element>
+            <position>8</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
+            <sys_id>972061360f177a0012e4348ce1050ed2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
+            <sys_id>1b2061360f177a0012e4348ce1050ed2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lms_feature_poll_everywhere</element>
+            <position>10</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
+            <sys_id>9b2061360f177a0012e4348ce1050ed2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lms_feature_lockdown_browser</element>
+            <position>11</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
+            <sys_id>1f2061360f177a0012e4348ce1050ed2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lms_feature_smartthinking</element>
+            <position>12</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
+            <sys_id>9f2061360f177a0012e4348ce1050ed2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lms_feature_softchalk</element>
+            <position>13</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
+            <sys_id>132061360f177a0012e4348ce1050ed3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lms_feature_turning_cloud</element>
+            <position>14</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
+            <sys_id>a32061360f177a0012e4348ce1050ed3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lms_feature_turning_technologies</element>
+            <position>15</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
+            <sys_id>272061360f177a0012e4348ce1050ed3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lms_feature_turnitin</element>
+            <position>16</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
+            <sys_id>a72061360f177a0012e4348ce1050ed3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lms_feature_wiley</element>
+            <position>17</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-15 15:30:16</sys_created_on>
+            <sys_id>2b2061360f177a0012e4348ce1050ed3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Integrations Used" display_value="Integrations Used" name="x_casus_csm_case" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">807f55f20f177a0012e4348ce1050edc</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-15 15:30:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Integrations Used</caption>
+            <header>false</header>
+            <name>x_casus_csm_case</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-06-15 15:27:02</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>807f55f20f177a0012e4348ce1050edc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Integrations Used</sys_name>
+            <sys_overrides display_value="">global</sys_overrides>
+            <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
+            <sys_update_name>sys_ui_section_807f55f20f177a0012e4348ce1050edc</sys_update_name>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-06-15 15:27:02</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="LMS" name="LMS">8cfe797d0f9ff60012e4348ce1050ec7</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

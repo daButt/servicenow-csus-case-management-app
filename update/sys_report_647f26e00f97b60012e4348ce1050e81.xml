@@ -3,7 +3,7 @@
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby/>
         <aggregate>COUNT</aggregate>
-        <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
+        <axis_max_color display_value="DarkGreen">65b3024aa9fe3dba0041a150cc135aed</axis_max_color>
         <axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
         <bar_unstack>false</bar_unstack>
         <chart_background_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</chart_background_color>
@@ -11,7 +11,7 @@
         <chart_border_radius>0</chart_border_radius>
         <chart_border_width>1</chart_border_width>
         <chart_height/>
-        <chart_size>large</chart_size>
+        <chart_size>small</chart_size>
         <chart_title/>
         <chart_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</chart_title_color>
         <chart_title_size>16</chart_title_size>
@@ -21,7 +21,7 @@
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
         <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
         <colors/>
-        <column>active</column>
+        <column>planned_end_time</column>
         <compute_percent>aggregate</compute_percent>
         <content/>
         <custom_chart_size>false</custom_chart_size>
@@ -30,15 +30,16 @@
         <description/>
         <direction>minimize</direction>
         <display_grid>false</display_grid>
-        <donut_width_percent>50</donut_width_percent>
+        <donut_width_percent/>
         <exp_report_attrs>true</exp_report_attrs>
         <field>stage</field>
         <field_list>task.number,sla,stage,start_time,planned_end_time,sys_updated_on</field_list>
-        <filter table="task_sla">active=true^sla.collection=x_casus_csm_case^task.assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ^GROUPBYstage<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        <filter table="task_sla">active=true^sla.collection=x_casus_csm_case^task.assigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ^GROUPBYstage^TRENDBYplanned_end_time,year<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="false" field="sla.collection" goto="false" newquery="false" operator="=" or="false" value="x_casus_csm_case"/>
             <item endquery="false" field="task.assigned_to" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
             <item endquery="false" field="" goto="false" newquery="false" operator="GROUPBY" or="false" value="stage"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="TRENDBY" or="false" value="planned_end_time,year"/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -52,9 +53,9 @@
         <legend_border_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</legend_border_color>
         <legend_border_radius>0</legend_border_radius>
         <legend_border_width>1</legend_border_width>
-        <legend_horizontal_alignment>center</legend_horizontal_alignment>
+        <legend_horizontal_alignment>right</legend_horizontal_alignment>
         <legend_items_left_align>false</legend_items_left_align>
-        <legend_vertical_alignment>bottom</legend_vertical_alignment>
+        <legend_vertical_alignment>middle</legend_vertical_alignment>
         <list_ui_view/>
         <location_field/>
         <lower_limit/>
@@ -67,15 +68,15 @@
         <report_drilldown/>
         <report_source/>
         <roles/>
-        <row>active</row>
+        <row>stage</row>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
         <sc_stackby_item_id/>
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
-        <set_color/>
+        <set_color>color_palette</set_color>
         <show_chart_border>false</show_chart_border>
-        <show_chart_data_label>false</show_chart_data_label>
+        <show_chart_data_label>true</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
         <show_chart_total>false</show_chart_total>
         <show_empty>false</show_empty>
@@ -90,7 +91,7 @@
         <sys_created_on>2017-06-08 21:30:16</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>647f26e00f97b60012e4348ce1050e81</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Case Update SLA</sys_name>
         <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
         <sys_policy/>
@@ -98,14 +99,14 @@
         <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
         <sys_update_name>sys_report_647f26e00f97b60012e4348ce1050e81</sys_update_name>
         <sys_updated_by>longlim</sys_updated_by>
-        <sys_updated_on>2017-06-09 17:24:37</sys_updated_on>
+        <sys_updated_on>2017-06-15 06:46:00</sys_updated_on>
         <table>task_sla</table>
         <title>Case Update SLA</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
         <trend_field>planned_end_time</trend_field>
-        <type>list</type>
+        <type>heatmap</type>
         <upper_limit/>
         <use_color_heatmap>true</use_color_heatmap>
         <use_color_palette>true</use_color_palette>

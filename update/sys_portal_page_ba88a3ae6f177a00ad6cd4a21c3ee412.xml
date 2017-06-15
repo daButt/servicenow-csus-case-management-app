@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2017-06-15 15:51:16">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>x_casus_csm.case_manager</read_roles>
+        <roles/>
+        <selectable>true</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>longlim</sys_created_by>
+        <sys_created_on>2017-06-15 06:48:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>ba88a3ae6f177a00ad6cd4a21c3ee412</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>PIlot Management Homepage</sys_name>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>longlim</sys_updated_by>
+        <sys_updated_on>2017-06-15 15:48:50</sys_updated_on>
+        <title>PIlot Management Homepage</title>
+        <user display_value="Long Lim">556a595030e0e400edaea43dafbaab53</user>
+        <view/>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="PIlot Management Homepage">ba88a3ae6f177a00ad6cd4a21c3ee412</page>
+                <summary/>
+                <sys_created_by>longlim</sys_created_by>
+                <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                <sys_id>2384a5f60f177a0012e4348ce1050ede</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>longlim</sys_updated_by>
+                <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">2384a5f60f177a0012e4348ce1050ede</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>2384a5f60f177a0012e4348ce1050edf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">2384a5f60f177a0012e4348ce1050ede</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>2784a5f60f177a0012e4348ce1050ede</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">2384a5f60f177a0012e4348ce1050ede</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>2b84a5f60f177a0012e4348ce1050ee0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">2384a5f60f177a0012e4348ce1050ede</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>2f84a5f60f177a0012e4348ce1050edf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>0f45c2200f57b60012e4348ce1050ed3</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">2384a5f60f177a0012e4348ce1050ede</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>6384a5f60f177a0012e4348ce1050ede</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">2384a5f60f177a0012e4348ce1050ede</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>6784a5f60f177a0012e4348ce1050ee0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">2384a5f60f177a0012e4348ce1050ede</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>6b84a5f60f177a0012e4348ce1050edf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>All Active Team Cases</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">2384a5f60f177a0012e4348ce1050ede</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>6f84a5f60f177a0012e4348ce1050ede</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">2384a5f60f177a0012e4348ce1050ede</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>a384a5f60f177a0012e4348ce1050ee0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">2384a5f60f177a0012e4348ce1050ede</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>a784a5f60f177a0012e4348ce1050edf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">2384a5f60f177a0012e4348ce1050ede</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>ab84a5f60f177a0012e4348ce1050ede</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">2384a5f60f177a0012e4348ce1050ede</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>af84a5f60f177a0012e4348ce1050ee0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>ba88a3ae6f177a00ad6cd4a21c3ee412</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">2384a5f60f177a0012e4348ce1050ede</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>e384a5f60f177a0012e4348ce1050edf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">2384a5f60f177a0012e4348ce1050ede</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>e784a5f60f177a0012e4348ce1050ede</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">2384a5f60f177a0012e4348ce1050ede</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>eb84a5f60f177a0012e4348ce1050ee0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">2384a5f60f177a0012e4348ce1050ede</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>ef84a5f60f177a0012e4348ce1050edf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="PIlot Management Homepage">ba88a3ae6f177a00ad6cd4a21c3ee412</page>
+                <summary/>
+                <sys_created_by>longlim</sys_created_by>
+                <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                <sys_id>a784a5f60f177a0012e4348ce1050ece</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>longlim</sys_updated_by>
+                <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">a784a5f60f177a0012e4348ce1050ece</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>2384a5f60f177a0012e4348ce1050ecf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">a784a5f60f177a0012e4348ce1050ece</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>2b84a5f60f177a0012e4348ce1050edd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">a784a5f60f177a0012e4348ce1050ece</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>2f84a5f60f177a0012e4348ce1050ecf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">a784a5f60f177a0012e4348ce1050ece</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>2f84a5f60f177a0012e4348ce1050edc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">a784a5f60f177a0012e4348ce1050ece</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>6784a5f60f177a0012e4348ce1050edd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">a784a5f60f177a0012e4348ce1050ece</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>6b84a5f60f177a0012e4348ce1050ecf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>bubble</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">a784a5f60f177a0012e4348ce1050ece</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>6f84a5f60f177a0012e4348ce1050ece</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">a784a5f60f177a0012e4348ce1050ece</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>a384a5f60f177a0012e4348ce1050ed0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>4f52a5760f177a0012e4348ce1050e4d</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">a784a5f60f177a0012e4348ce1050ece</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>a384a5f60f177a0012e4348ce1050edd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">a784a5f60f177a0012e4348ce1050ece</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>a784a5f60f177a0012e4348ce1050ecf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">a784a5f60f177a0012e4348ce1050ece</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>ab84a5f60f177a0012e4348ce1050ece</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">a784a5f60f177a0012e4348ce1050ece</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>e384a5f60f177a0012e4348ce1050ecf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">a784a5f60f177a0012e4348ce1050ece</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>e784a5f60f177a0012e4348ce1050ece</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">a784a5f60f177a0012e4348ce1050ece</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>eb84a5f60f177a0012e4348ce1050edd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>ba88a3ae6f177a00ad6cd4a21c3ee412</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">a784a5f60f177a0012e4348ce1050ece</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>ef84a5f60f177a0012e4348ce1050ecf</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>Contact Count for Different Case States</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">a784a5f60f177a0012e4348ce1050ece</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>ef84a5f60f177a0012e4348ce1050edc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="PIlot Management Homepage">ba88a3ae6f177a00ad6cd4a21c3ee412</page>
+                <summary/>
+                <sys_created_by>longlim</sys_created_by>
+                <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                <sys_id>e384a5f60f177a0012e4348ce1050ecb</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>longlim</sys_updated_by>
+                <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ecb</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>2384a5f60f177a0012e4348ce1050ecc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ecb</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>2784a5f60f177a0012e4348ce1050ecb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ecb</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>2b84a5f60f177a0012e4348ce1050ecd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ecb</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>2f84a5f60f177a0012e4348ce1050ecc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>Case Manager Assignment Load</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ecb</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>6384a5f60f177a0012e4348ce1050ece</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>ba88a3ae6f177a00ad6cd4a21c3ee412</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ecb</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>6784a5f60f177a0012e4348ce1050ecd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ecb</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>6b84a5f60f177a0012e4348ce1050ecc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ecb</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>6f84a5f60f177a0012e4348ce1050ecb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ecb</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>a384a5f60f177a0012e4348ce1050ecd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ecb</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>a784a5f60f177a0012e4348ce1050ecc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>heatmap</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ecb</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>ab84a5f60f177a0012e4348ce1050ecb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ecb</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>af84a5f60f177a0012e4348ce1050ecd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ecb</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>e384a5f60f177a0012e4348ce1050ecc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ecb</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>e784a5f60f177a0012e4348ce1050ecb</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ecb</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>eb84a5f60f177a0012e4348ce1050ecd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ecb</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>ef84a5f60f177a0012e4348ce1050ecc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>cbbc2bee6f177a00ad6cd4a21c3ee4c9</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>1</offset>
+                <page display_value="PIlot Management Homepage">ba88a3ae6f177a00ad6cd4a21c3ee412</page>
+                <summary/>
+                <sys_created_by>longlim</sys_created_by>
+                <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                <sys_id>e384a5f60f177a0012e4348ce1050ee1</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>longlim</sys_updated_by>
+                <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>real_time</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ee1</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>2384a5f60f177a0012e4348ce1050ee2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_align</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ee1</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>2784a5f60f177a0012e4348ce1050ee1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>center</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_title</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ee1</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>2b84a5f60f177a0012e4348ce1050ee3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ee1</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>2f84a5f60f177a0012e4348ce1050ee2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>All Completed Team Cases</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ee1</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>6384a5f60f177a0012e4348ce1050ee4</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>ba88a3ae6f177a00ad6cd4a21c3ee412</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>subscriber_widget</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ee1</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>6784a5f60f177a0012e4348ce1050ee3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ee1</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>6b84a5f60f177a0012e4348ce1050ee2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_size</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ee1</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>6f84a5f60f177a0012e4348ce1050ee1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>10pt</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ee1</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>a384a5f60f177a0012e4348ce1050ee3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ee1</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>a784a5f60f177a0012e4348ce1050ee2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>filter_indicator</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ee1</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>ab84a5f60f177a0012e4348ce1050ee1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>publisher_widget</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ee1</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>af84a5f60f177a0012e4348ce1050ee3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>show_border</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ee1</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>e384a5f60f177a0012e4348ce1050ee2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ee1</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>e784a5f60f177a0012e4348ce1050ee1</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>widget_height</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ee1</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>eb84a5f60f177a0012e4348ce1050ee3</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value/>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 06-15-2017 08:49:23">e384a5f60f177a0012e4348ce1050ee1</portal_section>
+                        <sys_created_by>longlim</sys_created_by>
+                        <sys_created_on>2017-06-15 15:49:23</sys_created_on>
+                        <sys_id>ef84a5f60f177a0012e4348ce1050ee2</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>longlim</sys_updated_by>
+                        <sys_updated_on>2017-06-15 15:49:23</sys_updated_on>
+                        <value>4f7506200f57b60012e4348ce1050e12</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

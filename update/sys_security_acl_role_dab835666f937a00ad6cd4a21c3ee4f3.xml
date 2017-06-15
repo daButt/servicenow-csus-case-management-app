@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-14 22:40:17</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>dab835666f937a00ad6cd4a21c3ee4f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_casus_csm_case.comments.x_casus_csm.case_manager</sys_name>
+        <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
+        <sys_security_acl display_value="x_casus_csm_case.comments">480c673f6f4b7600ad6cd4a21c3ee4d9</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_dab835666f937a00ad6cd4a21c3ee4f3</sys_update_name>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-14 22:40:17</sys_updated_on>
+        <sys_user_role display_value="x_casus_csm.case_manager" name="x_casus_csm.case_manager">84f65b670f83760012e4348ce1050eab</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
