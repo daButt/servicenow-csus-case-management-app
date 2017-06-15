@@ -42,17 +42,8 @@
 	cs.get(current.getValue('case'));
 	rs.get(current.getValue('reservation'));
 	
-	gs.addInfoMessage('Reservation: ' + current['reservation'].number + cs.number);
-	gs.addInfoMessage('Case: ' + current['case'].number + rs.number);
-
-	//current['case'].work_notes = "Removed Reservation " + current['reservation'].number;
-	//current['reservation'].notes = "Removed Case " + current['case'].number;
-	
-	//current['case'].update();
-	//current['reservation'].update();
-	
-	cs.work_notes = "Removed Reservation " + cs.number;
-	rs.notes = "Removed Case " + rs.number;
+	cs.work_notes = "Removed Reservation " + rs.number;
+	rs.notes = "Removed Case " + cs.number;
 	
 	cs.update();
 	rs.update();
@@ -65,7 +56,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>da9696ba6f1b7a00ad6cd4a21c3ee44a</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>M2m Reservation Delete</sys_name>
         <sys_overrides/>
         <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
@@ -74,7 +65,7 @@
         <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
         <sys_update_name>sys_script_da9696ba6f1b7a00ad6cd4a21c3ee44a</sys_update_name>
         <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-15 20:28:11</sys_updated_on>
+        <sys_updated_on>2017-06-15 20:32:37</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
