@@ -10,7 +10,7 @@
         <action_query>false</action_query>
         <action_run_at>server</action_run_at>
         <action_update>true</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <application/>
@@ -20,12 +20,14 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="incident">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+        <filter_condition table="incident">active=true^caller_idISNOTEMPTY^assignment_groupISNOTEMPTY^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="caller_id" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="assignment_group" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>Assign Incident to Case</name>
+        <name>Auto assign Incident to Case</name>
         <onclick/>
         <order>100</order>
         <priority>100</priority>
@@ -41,8 +43,9 @@
 	//assign this incident to a case if a case exists for this user.  Do not create, as case managers will handle that if need be
 
 	var cs = new GlideRecord('x_casus_csm_case');
-	cs.addQuery('client', current.caller_id.sys_id);
+	cs.addQuery('client', current.caller_id);
 	cs.addQuery('assignment_group', current.assignment_group);
+	cs.addQuery('assigned_to', current.assigned_to);
 	cs.addActiveQuery();
 	cs.query();
 	
@@ -57,18 +60,8 @@
 
 			m2m.task = current.sys_id;
 			m2m.setValue('case', cs.sys_id);
-			m2m.task_type = 'incident';
-			m2m.short_description = current.short_description;
-			m2m.state = current.state.getDisplayValue();
-
-			//update worknotes before m2m insert to avoid worknotes on m2m table running and duplicating comments.
-			current.work_notes = "Incident added to case " + cs.number;
-			current.update();
-
+			
 			m2m.insert();
-
-			cs.work_notes = current.number + " added to this case";
-			cs.update();
 		}
 	}
 
@@ -79,8 +72,8 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>7d313ae06f5bb600ad6cd4a21c3ee4d7</sys_id>
-        <sys_mod_count>28</sys_mod_count>
-        <sys_name>Assign Incident to Case</sys_name>
+        <sys_mod_count>46</sys_mod_count>
+        <sys_name>Auto assign Incident to Case</sys_name>
         <sys_overrides/>
         <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
         <sys_policy/>
@@ -88,7 +81,7 @@
         <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
         <sys_update_name>sys_script_7d313ae06f5bb600ad6cd4a21c3ee4d7</sys_update_name>
         <sys_updated_by>nicholasmyers</sys_updated_by>
-        <sys_updated_on>2017-06-19 17:17:45</sys_updated_on>
+        <sys_updated_on>2017-06-20 15:52:58</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
