@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set fields inactive so they can not be updated when in the closed state.</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>Make Case Fields ReadOnly when Inactive</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	var caseState = g_form.getValue('state');
+	
+	if (caseState  == '3') { //closed, archive
+		//metadata fields
+		g_form.setReadonly('client',true);
+		g_form.setReadonly('contact_phone',true);
+		g_form.setReadonly('contact_email',true);
+		g_form.setReadonly('description',true);
+		g_form.setReadonly('assignment_group',true);
+		g_form.setReadonly('assigned_to',true);
+		g_form.setReadonly('work_notes',true);
+		g_form.setReadonly('comments',true);
+		
+		//contact methods fields
+		g_form.setReadonly('one_on_one_remote',true);
+		g_form.setReadonly('in_person_workshops',true);
+		g_form.setReadonly('online_tutorials',true);
+		g_form.setReadonly('one_on_one_person',true);
+		g_form.setReadonly('online_workshops',true);
+		
+		//LMS specific fields
+		g_form.setReadonly('pilot_course',true);
+		g_form.setReadonly('canvas_course',true);
+		g_form.setReadonly('lms_feature_collaborate',true);
+		g_form.setReadonly('lms_feature_mindlinks',true);
+		g_form.setReadonly('lms_feature_discover',true);
+		g_form.setReadonly('lms_feature_grade_export',true);
+		g_form.setReadonly('lms_feature_inquizitive',true);
+		g_form.setReadonly('lms_feature_connect_create',true);
+		g_form.setReadonly('lms_feature_mediasite',true);
+		g_form.setReadonly('lms_feature_mindedge',true);
+		g_form.setReadonly('lms_feature_mylab',true);
+		g_form.setReadonly('lms_feature_poll_everywhere',true);
+		g_form.setReadonly('lms_feature_lockdown_browser',true);
+		g_form.setReadonly('lms_feature_smartthinking',true);
+		g_form.setReadonly('lms_feature_softchalk',true);
+		g_form.setReadonly('lms_feature_turning_cloud',true);
+		g_form.setReadonly('lms_feature_turning_technologies',true);
+		g_form.setReadonly('lms_feature_turnitin',true);
+		g_form.setReadonly('lms_feature_wiley',true);
+		g_form.setReadonly('lms_feature_zoom',true);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-22 22:59:30</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>6969cb096feb3e00ad6cd4a21c3ee452</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Make Case Fields ReadOnly when Inactive</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
+        <sys_update_name>sys_script_client_6969cb096feb3e00ad6cd4a21c3ee452</sys_update_name>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-22 23:11:09</sys_updated_on>
+        <table>x_casus_csm_case</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
