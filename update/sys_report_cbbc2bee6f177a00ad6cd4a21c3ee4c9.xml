@@ -87,15 +87,15 @@
         <sys_created_on>2017-06-15 07:05:53</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>cbbc2bee6f177a00ad6cd4a21c3ee4c9</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Case Manager Assignment Load</sys_name>
         <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
         <sys_update_name>sys_report_cbbc2bee6f177a00ad6cd4a21c3ee4c9</sys_update_name>
-        <sys_updated_by>longlim</sys_updated_by>
-        <sys_updated_on>2017-06-15 15:35:03</sys_updated_on>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-20 18:18:57</sys_updated_on>
         <table>x_casus_csm_case</table>
         <title>Case Manager Assignment Load</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
@@ -106,7 +106,7 @@
         <upper_limit/>
         <use_color_heatmap>true</use_color_heatmap>
         <use_color_palette>true</use_color_palette>
-        <user>556a595030e0e400edaea43dafbaab53</user>
+        <user>group</user>
         <users/>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>

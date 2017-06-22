@@ -88,15 +88,15 @@
         <sys_created_on>2017-06-15 15:39:48</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>4f52a5760f177a0012e4348ce1050e4d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Contact Count for Different Case States</sys_name>
         <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
         <sys_update_name>sys_report_4f52a5760f177a0012e4348ce1050e4d</sys_update_name>
-        <sys_updated_by>longlim</sys_updated_by>
-        <sys_updated_on>2017-06-15 16:01:13</sys_updated_on>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-20 18:17:12</sys_updated_on>
         <table>x_casus_csm_case</table>
         <title>Contact Count for Different Case States</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
@@ -107,7 +107,7 @@
         <upper_limit/>
         <use_color_heatmap>true</use_color_heatmap>
         <use_color_palette>true</use_color_palette>
-        <user>556a595030e0e400edaea43dafbaab53</user>
+        <user>group</user>
         <users/>
         <x_axis_display_grid>false</x_axis_display_grid>
         <x_axis_grid_color display_value="LightGrey">65b30308a9fe3dba01ebaa03e87e7cd3</x_axis_grid_color>

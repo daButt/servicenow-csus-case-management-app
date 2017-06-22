@@ -54,7 +54,7 @@
 		role.role = '1a2dc3ef0f43760012e4348ce1050e8a'; //x_casus_csm.user
 		role.insert();
 		
-		gs.info("BR - Provision User with Case Management Role - user " + " provisioned with role " + role.role);
+		gs.info("BR - "+ current.client.user_name + " provisioned with role " + role.role.getDisplayValue() + " via " + current.number);
 	}
 
 })(current, previous);]]></script>
@@ -64,7 +64,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>94f9a08c6fdb7600ad6cd4a21c3ee420</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Provision User with Case Management Role</sys_name>
         <sys_overrides/>
         <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
@@ -73,7 +73,7 @@
         <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
         <sys_update_name>sys_script_94f9a08c6fdb7600ad6cd4a21c3ee420</sys_update_name>
         <sys_updated_by>nicholasmyers</sys_updated_by>
-        <sys_updated_on>2017-06-06 22:49:51</sys_updated_on>
+        <sys_updated_on>2017-06-22 18:24:00</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>

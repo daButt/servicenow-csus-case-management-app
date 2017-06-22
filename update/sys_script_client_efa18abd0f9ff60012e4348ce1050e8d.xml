@@ -16,6 +16,7 @@
 	
 	//if default, hide all custom state values
 	if(view == '') { //default appears as empty string 
+		g_form.removeOption('state', 46); //46 - 'Pending'
 		g_form.removeOption('state', 45); //45 - 'Course Delivery Complete'
 		g_form.removeOption('state', 44); //44 - 'Actively Delivering Course'
 		g_form.removeOption('state', 43); //43 - 'Course Building Complete'
@@ -34,7 +35,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>efa18abd0f9ff60012e4348ce1050e8d</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Reveal Case Specific States</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
@@ -43,7 +44,7 @@
         <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
         <sys_update_name>sys_script_client_efa18abd0f9ff60012e4348ce1050e8d</sys_update_name>
         <sys_updated_by>nicholasmyers</sys_updated_by>
-        <sys_updated_on>2017-06-12 15:41:31</sys_updated_on>
+        <sys_updated_on>2017-06-20 19:34:43</sys_updated_on>
         <table>x_casus_csm_case</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

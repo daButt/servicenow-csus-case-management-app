@@ -44,18 +44,18 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>nicholasmyers</sys_created_by>
             <sys_created_on>2017-06-05 23:18:02</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>4e5bafef0f83760012e4348ce1050e42</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_name>x_casus_csm_m2m_tasks_cases</sys_name>
             <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
             <sys_policy/>
-            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
             <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
             <sys_update_name>sys_ui_list_x_casus_csm_m2m_tasks_cases_null</sys_update_name>
-            <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-05 23:18:02</sys_updated_on>
+            <sys_updated_by>longlim</sys_updated_by>
+            <sys_updated_on>2017-06-21 04:59:38</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
