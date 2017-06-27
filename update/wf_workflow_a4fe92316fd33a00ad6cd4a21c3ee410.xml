@@ -2,7 +2,7 @@
 <record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"activities":{},"subflows":[],"stages":{},"ends":["24fe92316fd33a00ad6cd4a21c3ee413"]}</activity_stages>
+        <activity_stages>{"activities":{},"subflows":[],"stages":{},"ends":["5fb6376e6fafbe00ad6cd4a21c3ee4bc"]}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -10,10 +10,10 @@
         <condition/>
         <condition_type/>
         <description>Sends a notification to the case owner if the case has been open for a set amount of time. </description>
-        <expected_sequences>2cfe92316fd33a00ad6cd4a21c3ee414,24fe92316fd33a00ad6cd4a21c3ee411,e4fe92316fd33a00ad6cd4a21c3ee413|2cfe92316fd33a00ad6cd4a21c3ee414,24fe92316fd33a00ad6cd4a21c3ee411,24fe92316fd33a00ad6cd4a21c3ee413</expected_sequences>
+        <expected_sequences>13b6376e6fafbe00ad6cd4a21c3ee4bd,5fb6376e6fafbe00ad6cd4a21c3ee4ba,5fb6376e6fafbe00ad6cd4a21c3ee4bc|13b6376e6fafbe00ad6cd4a21c3ee4bd,5fb6376e6fafbe00ad6cd4a21c3ee4ba,57b6376e6fafbe00ad6cd4a21c3ee4bd</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>2cfe92316fd33a00ad6cd4a21c3ee414,24fe92316fd33a00ad6cd4a21c3ee411,e4fe92316fd33a00ad6cd4a21c3ee413|2cfe92316fd33a00ad6cd4a21c3ee414,24fe92316fd33a00ad6cd4a21c3ee411,24fe92316fd33a00ad6cd4a21c3ee413</full_sequences>
+        <full_sequences>13b6376e6fafbe00ad6cd4a21c3ee4bd,5fb6376e6fafbe00ad6cd4a21c3ee4ba,5fb6376e6fafbe00ad6cd4a21c3ee4bc|13b6376e6fafbe00ad6cd4a21c3ee4bd,5fb6376e6fafbe00ad6cd4a21c3ee4ba,57b6376e6fafbe00ad6cd4a21c3ee4bd</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>Case Management SLA User Commented</name>
@@ -28,16 +28,16 @@
         <schedule/>
         <stage_field/>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">2cfe92316fd33a00ad6cd4a21c3ee414</start>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>e8fe92316fd33a00ad6cd4a21c3ee410</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <start display_value="Begin">13b6376e6fafbe00ad6cd4a21c3ee4bd</start>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>d3b6376e6fafbe00ad6cd4a21c3ee4ba</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>nicholasmyers</sys_updated_by>
-        <sys_updated_on>2017-06-12 19:21:58</sys_updated_on>
+        <sys_updated_on>2017-06-27 18:06:42</sys_updated_on>
         <table>task_sla</table>
         <timezone/>
-        <validated>true</validated>
+        <validated>false</validated>
         <workflow display_value="Case Management SLA User Commented">a4fe92316fd33a00ad6cd4a21c3ee410</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
@@ -80,147 +80,147 @@
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>24fe92316fd33a00ad6cd4a21c3ee411</sys_id>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>5fb6376e6fafbe00ad6cd4a21c3ee4ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Case Management SLA User Commented">e8fe92316fd33a00ad6cd4a21c3ee410</workflow_version>
+        <workflow_version display_value="Case Management SLA User Commented">d3b6376e6fafbe00ad6cd4a21c3ee4ba</workflow_version>
         <x>248</x>
         <y>32</y>
     </wf_activity>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>24fe92316fd33a00ad6cd4a21c3ee411</document_key>
+        <document_key>5fb6376e6fafbe00ad6cd4a21c3ee4ba</document_key>
         <order/>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>24fe92316fd33a00ad6cd4a21c3ee412</sys_id>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>13b6376e6fafbe00ad6cd4a21c3ee4bc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
-        <value/>
-        <variable display_value="">d6d1791a0a0a0b9b01eda7c8dbc013da</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>24fe92316fd33a00ad6cd4a21c3ee411</document_key>
-        <order/>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>28fe92316fd33a00ad6cd4a21c3ee411</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
-        <value/>
-        <variable display_value="">d6cec3ed0a0a0b9b00c9bbdb5fdda4e3</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>24fe92316fd33a00ad6cd4a21c3ee411</document_key>
-        <order/>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>64fe92316fd33a00ad6cd4a21c3ee411</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
-        <value/>
-        <variable display_value="">d7242d200a0a0b5f008f535603a17bc8</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>24fe92316fd33a00ad6cd4a21c3ee411</document_key>
-        <order/>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>6cfe92316fd33a00ad6cd4a21c3ee412</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
-        <value/>
-        <variable display_value="">d6d1f7ef0a0a0b9b0189a9e672795167</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>24fe92316fd33a00ad6cd4a21c3ee411</document_key>
-        <order/>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>a8fe92316fd33a00ad6cd4a21c3ee412</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
-        <value/>
-        <variable display_value="">d6d378c20a0a0b9b01bbd16b1f3b7105</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>24fe92316fd33a00ad6cd4a21c3ee411</document_key>
-        <order/>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>acfe92316fd33a00ad6cd4a21c3ee411</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
-        <value/>
-        <variable display_value="">d7277ef40a0a0b5f00355fe11ecee145</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>wf_activity</document>
-        <document_key>24fe92316fd33a00ad6cd4a21c3ee411</document_key>
-        <order/>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>e4fe92316fd33a00ad6cd4a21c3ee412</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
         <value/>
         <variable display_value="">d67e76010a0a0b9b01146faa9f93fd86</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>24fe92316fd33a00ad6cd4a21c3ee411</document_key>
+        <document_key>5fb6376e6fafbe00ad6cd4a21c3ee4ba</document_key>
         <order/>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>e8fe92316fd33a00ad6cd4a21c3ee411</sys_id>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>17b6376e6fafbe00ad6cd4a21c3ee4bb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
         <value/>
         <variable display_value="">d67ff5da0a0a0b9b00b230016b2f5203</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>24fe92316fd33a00ad6cd4a21c3ee411</document_key>
+        <document_key>5fb6376e6fafbe00ad6cd4a21c3ee4ba</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>53b6376e6fafbe00ad6cd4a21c3ee4bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
+        <value/>
+        <variable display_value="">d6cec3ed0a0a0b9b00c9bbdb5fdda4e3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5fb6376e6fafbe00ad6cd4a21c3ee4ba</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>5fb6376e6fafbe00ad6cd4a21c3ee4bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
+        <value/>
+        <variable display_value="">d6d1791a0a0a0b9b01eda7c8dbc013da</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5fb6376e6fafbe00ad6cd4a21c3ee4ba</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>97b6376e6fafbe00ad6cd4a21c3ee4bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
+        <value/>
+        <variable display_value="">d6d1f7ef0a0a0b9b0189a9e672795167</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5fb6376e6fafbe00ad6cd4a21c3ee4ba</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>9fb6376e6fafbe00ad6cd4a21c3ee4ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
+        <value/>
+        <variable display_value="">d7242d200a0a0b5f008f535603a17bc8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5fb6376e6fafbe00ad6cd4a21c3ee4ba</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>d3b6376e6fafbe00ad6cd4a21c3ee4bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
+        <value/>
+        <variable display_value="">d6d378c20a0a0b9b01bbd16b1f3b7105</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5fb6376e6fafbe00ad6cd4a21c3ee4ba</document_key>
+        <order/>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>d7b6376e6fafbe00ad6cd4a21c3ee4bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
+        <value/>
+        <variable display_value="">d7277ef40a0a0b5f00355fe11ecee145</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>5fb6376e6fafbe00ad6cd4a21c3ee4ba</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>60fe92316fd33a00ad6cd4a21c3ee412</sys_id>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>9bb6376e6fafbe00ad6cd4a21c3ee4bb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
         <value>75</value>
         <variable display_value="">c36369760a0a0ba973b49249d16250b3</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="75% of SLA">24fe92316fd33a00ad6cd4a21c3ee411</activity>
+        <activity display_value="75% of SLA">5fb6376e6fafbe00ad6cd4a21c3ee4ba</activity>
         <condition>activity.result != 'repair'</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -233,12 +233,12 @@
         <order>200</order>
         <short_description>The SLA is running normally (not being repaired)</short_description>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>60fe92316fd33a00ad6cd4a21c3ee413</sys_id>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>9bb6376e6fafbe00ad6cd4a21c3ee4bc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
@@ -255,21 +255,21 @@
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>2cfe92316fd33a00ad6cd4a21c3ee414</sys_id>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>13b6376e6fafbe00ad6cd4a21c3ee4bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Case Management SLA User Commented">e8fe92316fd33a00ad6cd4a21c3ee410</workflow_version>
+        <workflow_version display_value="Case Management SLA User Commented">d3b6376e6fafbe00ad6cd4a21c3ee4ba</workflow_version>
         <x>20</x>
         <y>20</y>
     </wf_activity>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">2cfe92316fd33a00ad6cd4a21c3ee414</activity>
+        <activity display_value="Begin">13b6376e6fafbe00ad6cd4a21c3ee4bd</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -282,12 +282,12 @@
         <order>0</order>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>acfe92316fd33a00ad6cd4a21c3ee414</sys_id>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>93b6376e6fafbe00ad6cd4a21c3ee4bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -304,16 +304,16 @@
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>24fe92316fd33a00ad6cd4a21c3ee413</sys_id>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>5fb6376e6fafbe00ad6cd4a21c3ee4bc</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="Case Management SLA User Commented">e8fe92316fd33a00ad6cd4a21c3ee410</workflow_version>
+        <workflow_version display_value="Case Management SLA User Commented">d3b6376e6fafbe00ad6cd4a21c3ee4ba</workflow_version>
         <x>714</x>
         <y>57</y>
     </wf_activity>
@@ -332,154 +332,156 @@
         <pinned>false</pinned>
         <pinned_version/>
         <stage/>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>e4fe92316fd33a00ad6cd4a21c3ee413</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:33:10</sys_updated_on>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>57b6376e6fafbe00ad6cd4a21c3ee4bd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:06:39</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="Case Management SLA User Commented">e8fe92316fd33a00ad6cd4a21c3ee410</workflow_version>
+        <workflow_version display_value="Case Management SLA User Commented">d3b6376e6fafbe00ad6cd4a21c3ee4ba</workflow_version>
         <x>466</x>
         <y>200</y>
     </wf_activity>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>e4fe92316fd33a00ad6cd4a21c3ee413</document_key>
+        <document_key>57b6376e6fafbe00ad6cd4a21c3ee4bd</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>28fe92316fd33a00ad6cd4a21c3ee413</sys_id>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>97b6376e6fafbe00ad6cd4a21c3ee4bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
         <value>${task.assigned_to}</value>
         <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>e4fe92316fd33a00ad6cd4a21c3ee413</document_key>
+        <document_key>57b6376e6fafbe00ad6cd4a21c3ee4bd</document_key>
         <order>150</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>e4fe92316fd33a00ad6cd4a21c3ee414</sys_id>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>57b6376e6fafbe00ad6cd4a21c3ee4be</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
         <value/>
         <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>e4fe92316fd33a00ad6cd4a21c3ee413</document_key>
+        <document_key>57b6376e6fafbe00ad6cd4a21c3ee4bd</document_key>
         <order>200</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>60fe92316fd33a00ad6cd4a21c3ee414</sys_id>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>dfb6376e6fafbe00ad6cd4a21c3ee4bd</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:33:10</sys_updated_on>
-        <value>New User Comments on Case ${number}</value>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:06:39</sys_updated_on>
+        <value>New User Comments on Case ${task.number}</value>
         <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>e4fe92316fd33a00ad6cd4a21c3ee413</document_key>
+        <document_key>57b6376e6fafbe00ad6cd4a21c3ee4bd</document_key>
         <order>300</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>24fe92316fd33a00ad6cd4a21c3ee414</sys_id>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>93b6376e6fafbe00ad6cd4a21c3ee4be</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:32:46</sys_updated_on>
-        <value>Greetings ${task.assgined_to},&#13;
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:06:39</sys_updated_on>
+        <value>Greetings ${task.assigned_to},&#13;
 &#13;
-This is a friendly reminder that ${number} assigned to you has new user comments.&#13;
+This is a friendly reminder that ${task.number} assigned to you has new user comments.&#13;
 &#13;
-Thank You</value>
+Thank You&#13;
+&#13;
+Click here to view this case: ${URI_REF}</value>
         <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>e4fe92316fd33a00ad6cd4a21c3ee413</document_key>
+        <document_key>57b6376e6fafbe00ad6cd4a21c3ee4bd</document_key>
         <order>400</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>e8fe92316fd33a00ad6cd4a21c3ee413</sys_id>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>5bb6376e6fafbe00ad6cd4a21c3ee4bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
         <value>0</value>
         <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>e4fe92316fd33a00ad6cd4a21c3ee413</document_key>
+        <document_key>57b6376e6fafbe00ad6cd4a21c3ee4bd</document_key>
         <order>500</order>
         <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>acfe92316fd33a00ad6cd4a21c3ee413</sys_id>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>1fb6376e6fafbe00ad6cd4a21c3ee4bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
         <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
 </value>
         <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
     </sys_variable_value>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">acfe92316fd33a00ad6cd4a21c3ee414</condition>
-        <from display_value="Begin">2cfe92316fd33a00ad6cd4a21c3ee414</from>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>64fe92316fd33a00ad6cd4a21c3ee415</sys_id>
+        <condition display_value="Normal">9bb6376e6fafbe00ad6cd4a21c3ee4bc</condition>
+        <from display_value="75% of SLA">5fb6376e6fafbe00ad6cd4a21c3ee4ba</from>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>13b6376e6fafbe00ad6cd4a21c3ee4bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
-        <to display_value="75% of SLA">24fe92316fd33a00ad6cd4a21c3ee411</to>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
+        <to display_value="End">5fb6376e6fafbe00ad6cd4a21c3ee4bc</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Normal">60fe92316fd33a00ad6cd4a21c3ee413</condition>
-        <from display_value="75% of SLA">24fe92316fd33a00ad6cd4a21c3ee411</from>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>68fe92316fd33a00ad6cd4a21c3ee415</sys_id>
+        <condition display_value="Always">93b6376e6fafbe00ad6cd4a21c3ee4bd</condition>
+        <from display_value="Begin">13b6376e6fafbe00ad6cd4a21c3ee4bd</from>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>93b6376e6fafbe00ad6cd4a21c3ee4bf</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
-        <to display_value="Notify Case Owner">e4fe92316fd33a00ad6cd4a21c3ee413</to>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
+        <to display_value="75% of SLA">5fb6376e6fafbe00ad6cd4a21c3ee4ba</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Normal">60fe92316fd33a00ad6cd4a21c3ee413</condition>
-        <from display_value="75% of SLA">24fe92316fd33a00ad6cd4a21c3ee411</from>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>e4fe92316fd33a00ad6cd4a21c3ee415</sys_id>
+        <condition display_value="Normal">9bb6376e6fafbe00ad6cd4a21c3ee4bc</condition>
+        <from display_value="75% of SLA">5fb6376e6fafbe00ad6cd4a21c3ee4ba</from>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>9fb6376e6fafbe00ad6cd4a21c3ee4be</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
-        <to display_value="End">24fe92316fd33a00ad6cd4a21c3ee413</to>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
+        <to display_value="Notify Case Owner">57b6376e6fafbe00ad6cd4a21c3ee4bd</to>
     </wf_transition>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
-        <sys_created_by>gg622</sys_created_by>
-        <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_id>2cfe92316fd33a00ad6cd4a21c3ee410</sys_id>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-06-27 18:05:17</sys_created_on>
+        <sys_id>17b6376e6fafbe00ad6cd4a21c3ee4ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-12 17:30:34</sys_updated_on>
-        <workflow_version display_value="Case Management SLA User Commented">e8fe92316fd33a00ad6cd4a21c3ee410</workflow_version>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-06-27 18:05:17</sys_updated_on>
+        <workflow_version display_value="Case Management SLA User Commented">d3b6376e6fafbe00ad6cd4a21c3ee4ba</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=a4fe92316fd33a00ad6cd4a21c3ee410^sys_id!=e8fe92316fd33a00ad6cd4a21c3ee410">
+    <wf_workflow_version action="update_multiple" query="workflow=a4fe92316fd33a00ad6cd4a21c3ee410^sys_id!=d3b6376e6fafbe00ad6cd4a21c3ee4ba">
         <published>false</published>
     </wf_workflow_version>
 </record_update>
