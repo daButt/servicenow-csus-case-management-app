@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>nicholasmyers</sys_created_by>
             <sys_created_on>2017-06-05 21:28:16</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>0832dfa30f83760012e4348ce1050e5d</sys_id>
             <sys_mod_count>1</sys_mod_count>
             <sys_name>Case Manager</sys_name>

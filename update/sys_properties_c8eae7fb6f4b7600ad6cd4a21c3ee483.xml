@@ -11,7 +11,7 @@
         <sys_class_name>sys_properties</sys_class_name>
         <sys_created_by>nicholasmyers</sys_created_by>
         <sys_created_on>2017-06-06 17:54:28</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c8eae7fb6f4b7600ad6cd4a21c3ee483</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>glide.ui.x_casus_csm_case_activity.fields</sys_name>

@@ -7,7 +7,7 @@
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>gg622</sys_created_by>
         <sys_created_on>2017-06-15 20:31:30</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>4c252eb26f5b7a00ad6cd4a21c3ee49c</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_casus_reservatio_reservation</sys_name>

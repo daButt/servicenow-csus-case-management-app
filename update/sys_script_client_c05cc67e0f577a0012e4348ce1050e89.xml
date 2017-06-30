@@ -23,7 +23,7 @@
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>nicholasmyers</sys_created_by>
         <sys_created_on>2017-06-15 18:48:19</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>c05cc67e0f577a0012e4348ce1050e89</sys_id>
         <sys_mod_count>0</sys_mod_count>

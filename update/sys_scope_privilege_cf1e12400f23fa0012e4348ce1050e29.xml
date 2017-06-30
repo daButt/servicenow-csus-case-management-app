@@ -7,7 +7,7 @@
         <sys_class_name>sys_scope_privilege</sys_class_name>
         <sys_created_by>nicholasmyers</sys_created_by>
         <sys_created_on>2017-06-19 17:13:15</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>cf1e12400f23fa0012e4348ce1050e29</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>task</sys_name>

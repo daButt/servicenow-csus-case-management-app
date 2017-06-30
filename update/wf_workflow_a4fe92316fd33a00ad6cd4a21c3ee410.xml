@@ -48,7 +48,7 @@
         <sys_class_name>wf_workflow</sys_class_name>
         <sys_created_by>gg622</sys_created_by>
         <sys_created_on>2017-06-12 17:30:34</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>a4fe92316fd33a00ad6cd4a21c3ee410</sys_id>
         <sys_mod_count>2</sys_mod_count>

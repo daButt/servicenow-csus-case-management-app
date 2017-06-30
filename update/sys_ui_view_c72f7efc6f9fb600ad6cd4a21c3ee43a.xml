@@ -8,7 +8,7 @@
         <sys_class_name>sys_ui_view</sys_class_name>
         <sys_created_by>longlim</sys_created_by>
         <sys_created_on>2017-06-09 17:17:27</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c72f7efc6f9fb600ad6cd4a21c3ee43a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Sys_popup,rpta254066c0f17b60012e4348ce1050e91</sys_name>

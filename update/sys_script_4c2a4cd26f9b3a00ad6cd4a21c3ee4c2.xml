@@ -62,7 +62,7 @@
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>gg622</sys_created_by>
         <sys_created_on>2017-06-13 20:43:50</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>4c2a4cd26f9b3a00ad6cd4a21c3ee4c2</sys_id>
         <sys_mod_count>16</sys_mod_count>

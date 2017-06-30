@@ -22,7 +22,7 @@
         <sys_class_name>sys_dictionary_override</sys_class_name>
         <sys_created_by>nicholasmyers</sys_created_by>
         <sys_created_on>2017-06-05 21:47:47</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>e28617670f83760012e4348ce1050eff</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>assigned_to</sys_name>

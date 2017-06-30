@@ -89,7 +89,7 @@
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>nicholasmyers</sys_created_by>
         <sys_created_on>2017-06-06 21:50:31</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>3ea02c846fdb7600ad6cd4a21c3ee4ba</sys_id>
         <sys_mod_count>28</sys_mod_count>

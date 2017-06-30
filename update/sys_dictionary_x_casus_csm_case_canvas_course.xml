@@ -51,7 +51,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>nicholasmyers</sys_created_by>
         <sys_created_on>2017-06-12 14:51:09</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>c43a79f90f5ff60012e4348ce1050ecc</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Spring 2018 Canvas Course(s)</sys_name>

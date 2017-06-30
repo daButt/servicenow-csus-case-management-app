@@ -90,7 +90,7 @@
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>longlim</sys_created_by>
         <sys_created_on>2017-06-09 16:57:24</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>ed9ab27c6f9fb600ad6cd4a21c3ee4f6</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>My Active Case Tasks</sys_name>

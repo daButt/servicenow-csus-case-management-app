@@ -13,7 +13,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>nicholasmyers</sys_created_by>
         <sys_created_on>2017-06-06 17:58:20</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>048b633f6f4b7600ad6cd4a21c3ee4ca</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>x_casus_csm_case.contact_email</sys_name>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>case_comments</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
+	var recentComment = current.comments.getJournalEntry(1);
+	if (recentComment !== '') {//just a saftey measure, else it prints undefined. Doubtful it will happen though
+		recentComment = recentComment.replace("\n",""); //Remove first newline
+		recentComment = recentComment.replace(/\n$/,"");//Remove last newline
+		recentComment = recentComment.replace(/(?:\r\n|\r|\n)/g, '<br />');//Replace newlines with html breaks
+		recentComment = recentComment.split("(Additional comments (customer visible))");
+		
+		template.print('<p style="background-color: #fff1fd; padding: 15px; font-size: 1em; font-family: sans-serif;">');
+		template.print('<span style="color: #505050; font-size: 0.9em;">' + gs.getMessage(recentComment[0]) + '</span> <br />');
+		template.print('<span style="color: #353535">' + gs.getMessage(recentComment[1]) + '</span>');
+		template.print('</p>');
+	}
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>gg622</sys_created_by>
+        <sys_created_on>2017-06-30 20:42:00</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>7127b36f6f673240ad6cd4a21c3ee4ba</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>case_comments</sys_name>
+        <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
+        <sys_update_name>sys_script_email_7127b36f6f673240ad6cd4a21c3ee4ba</sys_update_name>
+        <sys_updated_by>gg622</sys_updated_by>
+        <sys_updated_on>2017-06-30 21:38:46</sys_updated_on>
+    </sys_script_email>
+</record_update>

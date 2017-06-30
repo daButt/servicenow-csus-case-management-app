@@ -36,7 +36,7 @@
         <sys_class_name>contract_sla</sys_class_name>
         <sys_created_by>gg622</sys_created_by>
         <sys_created_on>2017-06-07 22:09:51</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>9f8c25540fdf760012e4348ce1050eaf</sys_id>
         <sys_mod_count>8</sys_mod_count>

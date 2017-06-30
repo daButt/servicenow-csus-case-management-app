@@ -51,7 +51,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>nicholasmyers</sys_created_by>
         <sys_created_on>2017-06-12 14:49:51</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>440abdb90f9ff60012e4348ce1050e37</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Pilot Course</sys_name>

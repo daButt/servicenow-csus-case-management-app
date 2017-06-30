@@ -6,7 +6,7 @@
         <sys_class_name>sys_report_users_groups</sys_class_name>
         <sys_created_by>longlim</sys_created_by>
         <sys_created_on>2017-06-08 21:30:16</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>7c7f26e00f97b60012e4348ce1050e81</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>647f26e00f97b60012e4348ce1050e81</sys_name>

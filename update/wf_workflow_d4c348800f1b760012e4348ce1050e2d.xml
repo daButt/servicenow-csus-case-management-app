@@ -32,12 +32,12 @@
         <sys_created_by>gg622</sys_created_by>
         <sys_created_on>2017-06-12 17:33:32</sys_created_on>
         <sys_id>04af5afd6f933a00ad6cd4a21c3ee492</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-27 22:07:16</sys_updated_on>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>palmert</sys_updated_by>
+        <sys_updated_on>2017-06-30 20:34:26</sys_updated_on>
         <table>task_sla</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Case Management SLA Open Case">d4c348800f1b760012e4348ce1050e2d</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
@@ -48,7 +48,7 @@
         <sys_class_name>wf_workflow</sys_class_name>
         <sys_created_by>gg622</sys_created_by>
         <sys_created_on>2017-06-06 19:43:10</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>d4c348800f1b760012e4348ce1050e2d</sys_id>
         <sys_mod_count>2</sys_mod_count>

@@ -10,7 +10,7 @@
         <sys_class_name>sys_m2m</sys_class_name>
         <sys_created_by>nicholasmyers</sys_created_by>
         <sys_created_on>2017-06-05 23:33:59</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>31ee6b630fc3760012e4348ce1050e95</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_casus_csm_m2m_survey_instances_cases</sys_name>

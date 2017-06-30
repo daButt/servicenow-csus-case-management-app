@@ -85,7 +85,7 @@
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>longlim</sys_created_by>
         <sys_created_on>2017-06-15 07:05:53</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>cbbc2bee6f177a00ad6cd4a21c3ee4c9</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_name>Case Manager Assignment Load</sys_name>

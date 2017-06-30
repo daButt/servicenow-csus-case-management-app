@@ -30,11 +30,121 @@
         <list_field/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p>Greetings ${case_manager}</p>
-<p>Comments have been added to ${number}</p>
-<div>${comments}</div>
-<div><hr /></div>
-<p>Click here to view this record ${URI_REF}</p>]]></message_html>
+        <message_html><![CDATA[<p style="background-color: #f0f8ff; padding: 0px; margin: 0px;">&nbsp;</p>
+<table style="width: 100%; background-color: #f0f8ff; text-align: center; border-collapse: collapse;" border="0" width="100%" cellspacing="4" cellpadding="0">
+<tbody><!-- Start Spacer -->
+<tr>
+<td style="line-height: 1px; font-size: 1px;" height="20">&nbsp;</td>
+</tr>
+<!-- End Spacer -->
+<tr>
+<td><br />
+<table style="text-align: -webkit-auto; background-color: #fcfdff; font-family: sans-serif; font-size: 13px; color: #353535;" width="600" cellpadding="0" align="center">
+<tbody><!-- Start Spacer -->
+<tr>
+<td style="line-height: 1px; font-size: 1px;" width="41">&nbsp;</td>
+<td style="line-height: 1px; font-size: 1px;" height="20">&nbsp;</td>
+<td style="line-height: 1px; width: 21 !important; font-size: 1px;" width="41">&nbsp;</td>
+</tr>
+<!-- End Spacer -->
+<tr>
+<td style="line-height: 1px; width: 21 !important; font-size: 1px;" width="41">&nbsp;</td>
+<td class="mktEditable content" style="text-align: left; color: #383838; text-transform: none; line-height: 25.6px; font-family: sans-serif; font-size: 16px; font-weight: normal; border-collapse: collapse;" align="left">
+<div style="text-align: left;">Greetings ${assigned_to}, <br /><br /> Comments have been added to ${number}:</div>
+<div style="white-space: pre-wrap;">${mail_script:case_comments}</div>
+</td>
+<td style="line-height: 1px; width: 21 !important; font-size: 1px;" width="41">&nbsp;</td>
+</tr>
+<tr>
+<td style="line-height: 1px; width: 21 !important; font-size: 1px;" width="41">&nbsp;</td>
+<td style="line-height: 1px; font-size: 1px;" height="20">&nbsp;</td>
+<td style="line-height: 1px; width: 21 !important; font-size: 1px;" width="41">&nbsp;</td>
+</tr>
+<tr>
+<td style="line-height: 1px; width: 21 !important; font-size: 1px;" width="41">&nbsp;</td>
+<td style="text-align: left; color: #505050; text-transform: none; line-height: 25.6px; font-family: sans-serif; font-size: 16px; font-weight: normal; border-collapse: collapse;">
+<table style="background-color: #fcfdff;">
+<tbody>
+<tr>
+<td style="padding-right: 20px; padding-left: 30px; font-family: sans-serif; color: #505050; vertical-align: top; line-height: 30px;"><strong>Number</strong>:</td>
+<td style="text-align: left; color: #505050; text-transform: none; line-height: 30px; font-family: sans-serif; font-size: 16px; font-weight: normal; border-collapse: collapse; vertical-align: top;">${number}</td>
+</tr>
+<tr>
+<td style="padding-right: 20px; padding-left: 30px; font-family: sans-serif; color: #505050; vertical-align: top; line-height: 30px;"><strong>State</strong>:</td>
+<td style="text-align: left; color: #505050; text-transform: none; line-height: 30px; font-family: sans-serif; font-size: 16px; font-weight: normal; border-collapse: collapse; vertical-align: top;">${state}</td>
+</tr>
+<tr>
+<td style="padding-right: 20px; padding-left: 30px; font-family: sans-serif; color: #505050; vertical-align: top; line-height: 30px;"><strong>Client</strong>:</td>
+<td style="text-align: left; color: #505050; text-transform: none; line-height: 30px; font-family: sans-serif; font-size: 16px; font-weight: normal; border-collapse: collapse; vertical-align: top;">${client}</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="line-height: 1px; width: 21 !important; font-size: 1px;" width="41">&nbsp;</td>
+</tr>
+<!-- Start Spacer -->
+<tr>
+<td style="line-height: 1px; width: 21 !important; font-size: 1px;" width="41">&nbsp;</td>
+<td style="line-height: 1px; font-size: 1px;" height="20">&nbsp;</td>
+<td style="line-height: 1px; width: 21 !important; font-size: 1px;" width="41">&nbsp;</td>
+</tr>
+<!-- End Spacer -->
+<tr>
+<td style="line-height: 1px; width: 21 !important; font-size: 1px;" width="41">&nbsp;</td>
+<td style="-webkit-border-radius: 7px; -moz-border-radius: 7px padding: 10px;" align="center" bgcolor="278efc">${mail_script:case_ViewCaseButton}</td>
+<td style="line-height: 1px; width: 21 !important; font-size: 1px;" width="41">&nbsp;</td>
+</tr>
+<!-- Start Spacer -->
+<tr>
+<td style="line-height: 1px; width: 21 !important; font-size: 1px;" width="41">&nbsp;</td>
+<td style="line-height: 1px; font-size: 1px;" height="20">&nbsp;</td>
+<td style="line-height: 1px; width: 21 !important; font-size: 1px;" width="41">&nbsp;</td>
+</tr>
+<!-- End Spacer -->
+<tr>
+<td style="line-height: 1px; width: 21 !important; font-size: 1px;" width="41">&nbsp;</td>
+<td style="text-align: left; color: #383838; text-transform: none; line-height: 25.6px; font-family: sans-serif; font-size: 16px; font-weight: normal; border-collapse: collapse;">
+<p style="line-height: 24px;">Thank You, <br /> IRT Service Desk</p>
+</td>
+<td style="line-height: 1px; width: 21 !important; font-size: 1px;" width="41">&nbsp;</td>
+</tr>
+<!-- Start Spacer -->
+<tr>
+<td style="line-height: 1px; font-size: 1px;" width="41">&nbsp;</td>
+<td style="line-height: 1px; font-size: 1px;" height="20">&nbsp;</td>
+<td style="line-height: 1px; width: 21 !important; font-size: 1px;" width="41">&nbsp;</td>
+</tr>
+<!-- End Spacer --></tbody>
+</table>
+</td>
+</tr>
+<!-- Start Spacer -->
+<tr>
+<td style="line-height: 1px; font-size: 1px;" height="20">&nbsp;</td>
+</tr>
+<!-- End Spacer -->
+<tr>
+<td>
+<table style="text-align: center; background-color: #f0f8ff; font-family: sans-serif; font-size: 13px; color: #808080;" width="600" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td style="line-height: 1px; width: 21; font-size: 1px;" width="41">&nbsp;</td>
+<td style="text-align: center; color: #808080; text-transform: none; line-height: 25.6px; font-family: sans-serif; font-size: 16px; font-weight: normal; border-collapse: collapse;"><span style="text-decoration: none; font-family: sans-serif; font-size: 13px; padding: 10px;"> <a style="text-decoration: underline; color: #606060;" href="https://csus.service-now.com/service/">Service Page</a> </span> <span style="text-decoration: none; font-family: sans-serif; font-size: 13px;"> <a style="text-decoration: underline; color: #606060;" href="https://csus.service-now.com/service/kb">Knowledge Base</a> </span></td>
+<td style="line-height: 1px; width: 21 !important; font-size: 1px;" width="41">&nbsp;</td>
+</tr>
+<tr>
+<td style="line-height: 1px; width: 21; font-size: 1px;" width="41">&nbsp;</td>
+<td style="text-align: center; color: #383838; text-transform: none; line-height: 15px; font-family: sans-serif; font-size: 12px; font-weight: normal; border-collapse: collapse;">
+<div><em style="color: #606060;"> AIRC 2005 <br /> (916) 278-7337 <br /> 6000 J Street Sacramento, CA 95819 </em></div>
+</td>
+<td style="line-height: 1px; width: 21 !important; font-size: 1px;" width="41">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Notify Case Manager on Comments Added</name>
@@ -56,7 +166,7 @@
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>cef924dc0f5f760012e4348ce1050e5e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Notify Case Manager on Comments Added</sys_name>
         <sys_overrides/>
         <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
@@ -65,7 +175,7 @@
         <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
         <sys_update_name>sysevent_email_action_cef924dc0f5f760012e4348ce1050e5e</sys_update_name>
         <sys_updated_by>gg622</sys_updated_by>
-        <sys_updated_on>2017-06-07 21:45:11</sys_updated_on>
+        <sys_updated_on>2017-06-30 21:35:48</sys_updated_on>
         <sys_version>2</sys_version>
         <template/>
         <type>email</type>
