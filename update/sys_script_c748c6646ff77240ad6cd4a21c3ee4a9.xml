@@ -4,7 +4,7 @@
         <abort_action>false</abort_action>
         <access>package_private</access>
         <action_delete>false</action_delete>
-        <action_insert>true</action_insert>
+        <action_insert>false</action_insert>
         <action_label/>
         <action_name/>
         <action_query>false</action_query>
@@ -12,22 +12,22 @@
         <action_update>true</action_update>
         <active>true</active>
         <add_message>false</add_message>
-        <advanced>true</advanced>
+        <advanced>false</advanced>
         <application/>
         <change_fields>false</change_fields>
         <client_callable>false</client_callable>
-        <collection>sys_email</collection>
+        <collection>x_casus_csm_case</collection>
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="sys_email">target_table=x_casus_csm_case^state=processed^type=sent^EQ<item endquery="false" field="target_table" goto="false" newquery="false" operator="=" or="false" value="x_casus_csm_case"/>
-            <item endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="processed"/>
-            <item endquery="false" field="type" goto="false" newquery="false" operator="=" or="false" value="sent"/>
+        <filter_condition table="x_casus_csm_case">sys_updated_bySAMEASclient.user_name^commentsVALCHANGES^new_email_response=false^EQ<item endquery="false" field="sys_updated_by" goto="false" newquery="false" operator="SAMEAS" or="false" value="client.user_name"/>
+            <item endquery="false" field="comments" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="new_email_response" goto="false" newquery="false" operator="=" or="false" value="false"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
         <message/>
-        <name>Case Manager Sends Email</name>
+        <name>Flag New Comments on Case</name>
         <onclick/>
         <order>100</order>
         <priority>100</priority>
@@ -40,33 +40,26 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	//update the case 
-	var updatedCase = new GlideRecord('x_casus_csm_case');
-	if(updatedCase.get(current.instance)) {
-		//just mark the case as updated to allow for SLA to trigger
-		updatedCase.work_notes += "Email sent to " + current.recipients;
-		updatedCase.sys_updated_by = gs.getUserName(); //set updated by as the user who sent the email, not system.
-		updatedCase.update();
-	}
+	// Add your code here
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>nicholasmyers</sys_created_by>
-        <sys_created_on>2017-06-27 18:40:17</sys_created_on>
+        <sys_created_on>2017-07-03 15:11:58</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>1a9dbb626fefbe00ad6cd4a21c3ee43c</sys_id>
-        <sys_mod_count>12</sys_mod_count>
-        <sys_name>Case Manager Sends Email</sys_name>
+        <sys_id>c748c6646ff77240ad6cd4a21c3ee4a9</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Flag New Comments on Case</sys_name>
         <sys_overrides/>
         <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
-        <sys_update_name>sys_script_1a9dbb626fefbe00ad6cd4a21c3ee43c</sys_update_name>
+        <sys_update_name>sys_script_c748c6646ff77240ad6cd4a21c3ee4a9</sys_update_name>
         <sys_updated_by>nicholasmyers</sys_updated_by>
-        <sys_updated_on>2017-07-03 17:20:28</sys_updated_on>
-        <template/>
-        <when>after</when>
+        <sys_updated_on>2017-07-03 15:18:51</sys_updated_on>
+        <template>new_email_response=true^new_email_response=true^EQ</template>
+        <when>before</when>
     </sys_script>
 </record_update>

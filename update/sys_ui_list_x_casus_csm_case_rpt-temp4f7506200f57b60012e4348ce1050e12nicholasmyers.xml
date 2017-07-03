@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_casus_csm_case" version="2" view="">
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_casus_csm_case" version="2" view="rpt-temp4f7506200f57b60012e4348ce1050e12nicholasmyers">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>number</element>
-            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">195067b76f4b7600ad6cd4a21c3ee4ce</list_id>
+            <element>client</element>
+            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="5632e2606f3b7240ad6cd4a21c3ee4e1">1ea2e6606f3b7240ad6cd4a21c3ee4ce</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-06 17:08:24</sys_created_on>
-            <sys_id>5d5067b76f4b7600ad6cd4a21c3ee4ce</sys_id>
+            <sys_created_on>2017-07-03 17:05:47</sys_created_on>
+            <sys_id>52a2e6606f3b7240ad6cd4a21c3ee4cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-06 17:08:24</sys_updated_on>
+            <sys_updated_on>2017-07-03 17:05:47</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>state</element>
-            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">195067b76f4b7600ad6cd4a21c3ee4ce</list_id>
+            <element>canvas_course</element>
+            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="5632e2606f3b7240ad6cd4a21c3ee4e1">1ea2e6606f3b7240ad6cd4a21c3ee4ce</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-06 17:08:24</sys_created_on>
-            <sys_id>dd5067b76f4b7600ad6cd4a21c3ee4ce</sys_id>
+            <sys_created_on>2017-07-03 17:05:47</sys_created_on>
+            <sys_id>d2a2e6606f3b7240ad6cd4a21c3ee4cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-06 17:08:24</sys_updated_on>
+            <sys_updated_on>2017-07-03 17:05:47</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>client</element>
-            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">195067b76f4b7600ad6cd4a21c3ee4ce</list_id>
+            <element>pilot_course</element>
+            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="5632e2606f3b7240ad6cd4a21c3ee4e1">1ea2e6606f3b7240ad6cd4a21c3ee4ce</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-06 17:08:24</sys_created_on>
-            <sys_id>515067b76f4b7600ad6cd4a21c3ee4cf</sys_id>
+            <sys_created_on>2017-07-03 17:05:47</sys_created_on>
+            <sys_id>56a2e6606f3b7240ad6cd4a21c3ee4cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-06 17:08:24</sys_updated_on>
+            <sys_updated_on>2017-07-03 17:05:47</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>assignment_group</element>
-            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">195067b76f4b7600ad6cd4a21c3ee4ce</list_id>
+            <element>client.department</element>
+            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="5632e2606f3b7240ad6cd4a21c3ee4e1">1ea2e6606f3b7240ad6cd4a21c3ee4ce</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-06 17:08:24</sys_created_on>
-            <sys_id>d15067b76f4b7600ad6cd4a21c3ee4cf</sys_id>
+            <sys_created_on>2017-07-03 17:05:47</sys_created_on>
+            <sys_id>d6a2e6606f3b7240ad6cd4a21c3ee4cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-06 17:08:24</sys_updated_on>
+            <sys_updated_on>2017-07-03 17:05:47</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>assigned_to</element>
-            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">195067b76f4b7600ad6cd4a21c3ee4ce</list_id>
+            <element>assignment_group</element>
+            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="5632e2606f3b7240ad6cd4a21c3ee4e1">1ea2e6606f3b7240ad6cd4a21c3ee4ce</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-06 17:08:24</sys_created_on>
-            <sys_id>555067b76f4b7600ad6cd4a21c3ee4cf</sys_id>
+            <sys_created_on>2017-07-03 17:05:47</sys_created_on>
+            <sys_id>5aa2e6606f3b7240ad6cd4a21c3ee4cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-06 17:08:24</sys_updated_on>
+            <sys_updated_on>2017-07-03 17:05:47</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_created_on</element>
-            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">195067b76f4b7600ad6cd4a21c3ee4ce</list_id>
+            <element>closed_at</element>
+            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="5632e2606f3b7240ad6cd4a21c3ee4e1">1ea2e6606f3b7240ad6cd4a21c3ee4ce</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-06-06 17:08:24</sys_created_on>
-            <sys_id>d55067b76f4b7600ad6cd4a21c3ee4cf</sys_id>
+            <sys_created_on>2017-07-03 17:05:47</sys_created_on>
+            <sys_id>daa2e6606f3b7240ad6cd4a21c3ee4cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-06-06 17:08:24</sys_updated_on>
+            <sys_updated_on>2017-07-03 17:05:47</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -103,21 +103,21 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-07-03 17:20:49</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_created_on>2017-07-03 17:05:47</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
-            <sys_id>de166aa06f3b7240ad6cd4a21c3ee4b4</sys_id>
+            <sys_id>1ea2e6606f3b7240ad6cd4a21c3ee4ce</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>x_casus_csm_case</sys_name>
-            <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
+            <sys_name/>
+            <sys_package/>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
-            <sys_update_name>sys_ui_list_x_casus_csm_case_null</sys_update_name>
+            <sys_update_name/>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-07-03 17:20:49</sys_updated_on>
-            <sys_user display_value="Nicholas Myers">c44d0241fccff400afd74c548b802fc3</sys_user>
-            <view display_value="Default view" name="NULL">Default view</view>
+            <sys_updated_on>2017-07-03 17:05:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt-temp4f7506200f57b60012e4348ce1050e12nicholasmyers" name="rpt-temp4f7506200f57b60012e4348ce1050e12nicholasmyers">5632e2606f3b7240ad6cd4a21c3ee4e1</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_casus_csm_case" version="2" view="RPT6f02eeac6ff77240ad6cd4a21c3ee47b">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="6702eeac6ff77240ad6cd4a21c3ee47c">eb02eeac6ff77240ad6cd4a21c3ee47c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-07-03 17:03:08</sys_created_on>
+            <sys_id>2302eeac6ff77240ad6cd4a21c3ee47d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-07-03 17:03:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>client</element>
+            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="6702eeac6ff77240ad6cd4a21c3ee47c">eb02eeac6ff77240ad6cd4a21c3ee47c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-07-03 17:03:08</sys_created_on>
+            <sys_id>a302eeac6ff77240ad6cd4a21c3ee47d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-07-03 17:03:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="6702eeac6ff77240ad6cd4a21c3ee47c">eb02eeac6ff77240ad6cd4a21c3ee47c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-07-03 17:03:08</sys_created_on>
+            <sys_id>2702eeac6ff77240ad6cd4a21c3ee47d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-07-03 17:03:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="6702eeac6ff77240ad6cd4a21c3ee47c">eb02eeac6ff77240ad6cd4a21c3ee47c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-07-03 17:03:08</sys_created_on>
+            <sys_id>a702eeac6ff77240ad6cd4a21c3ee47d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-07-03 17:03:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_casus_csm_case" element="NULL" name="x_casus_csm_case" parent="NULL" relationship="NULL" sys_domain="global" view="6702eeac6ff77240ad6cd4a21c3ee47c">eb02eeac6ff77240ad6cd4a21c3ee47c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-07-03 17:03:08</sys_created_on>
+            <sys_id>2b02eeac6ff77240ad6cd4a21c3ee47d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-07-03 17:03:08</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_casus_csm_case</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-07-03 17:03:08</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>eb02eeac6ff77240ad6cd4a21c3ee47c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_casus_csm_case</sys_name>
+            <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
+            <sys_update_name>sys_ui_list_x_casus_csm_case_RPT6f02eeac6ff77240ad6cd4a21c3ee47b</sys_update_name>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-07-03 17:03:08</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt6f02eeac6ff77240ad6cd4a21c3ee47b" name="RPT6f02eeac6ff77240ad6cd4a21c3ee47b">6702eeac6ff77240ad6cd4a21c3ee47c</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
