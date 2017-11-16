@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description>Shows case-type or view-specic states on the form</description>
@@ -31,19 +31,19 @@
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>nicholasmyers</sys_created_by>
         <sys_created_on>2017-06-12 15:27:35</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>efa18abd0f9ff60012e4348ce1050e8d</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Reveal Case Specific States</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
         <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
         <sys_update_name>sys_script_client_efa18abd0f9ff60012e4348ce1050e8d</sys_update_name>
         <sys_updated_by>nicholasmyers</sys_updated_by>
-        <sys_updated_on>2017-06-22 22:51:50</sys_updated_on>
+        <sys_updated_on>2017-10-27 15:54:04</sys_updated_on>
         <table>x_casus_csm_case</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

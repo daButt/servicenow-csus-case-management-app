@@ -12,21 +12,21 @@
         <order/>
         <script><![CDATA[function onLoad() {
    //hide additional comments field for case managers
-	var view = g_form.getParameter('view');
+	//var view = g_form.getParameter('view');
 	
-	if(view == 'LMS') {
-		if(g_user.hasRoleExactly('x_casus_csm.case_manager')) { //don't hide field from admins
+	//if(view == 'LMS') {
+		if(g_user.hasRoleExactly('x_casus_csm.case_manager') && g_form.getValue('assignment_group') == '7eaadfe70f83760012e4348ce1050ec2') { //hide for ATC team members
 			g_form.setDisplay('comments', false);
 		}
-	}
+	//}
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>nicholasmyers</sys_created_by>
         <sys_created_on>2017-06-15 18:48:19</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>c05cc67e0f577a0012e4348ce1050e89</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Hide comments for LMS case managers</sys_name>
         <sys_overrides display_value="">global</sys_overrides>
         <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
@@ -35,7 +35,7 @@
         <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
         <sys_update_name>sys_script_client_c05cc67e0f577a0012e4348ce1050e89</sys_update_name>
         <sys_updated_by>nicholasmyers</sys_updated_by>
-        <sys_updated_on>2017-06-15 18:48:19</sys_updated_on>
+        <sys_updated_on>2017-10-27 17:36:33</sys_updated_on>
         <table>x_casus_csm_case</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Calls the global script include tag processor to retrieve the tags for this table, and display them</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>Meta Tag Editor Box</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//calling main function in global UI script, passing in the table and name of the field which should be checked to modify the DOM for displaying tags.
+	handleTagsField('x_casus_csm_case', 'meta');
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-10-27 23:22:15</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>baf0d5826f86c340ad6cd4a21c3ee4a8</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Meta Tag Editor Box</sys_name>
+        <sys_overrides display_value="">global</sys_overrides>
+        <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
+        <sys_update_name>sys_script_client_baf0d5826f86c340ad6cd4a21c3ee4a8</sys_update_name>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-11-03 18:29:49</sys_updated_on>
+        <table>x_casus_csm_case</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

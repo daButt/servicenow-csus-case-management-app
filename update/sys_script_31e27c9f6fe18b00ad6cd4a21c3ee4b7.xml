@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_label/>
+        <action_name/>
+        <action_query>false</action_query>
+        <action_run_at>server</action_run_at>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <application/>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>asmt_assessment_instance</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>M2m Assessment Add</name>
+        <onclick/>
+        <order>100</order>
+        <priority>100</priority>
+        <read_access_action>false</read_access_action>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Find a survey for items in the task related list
+	var cs = new GlideRecord('x_casus_csm_m2m_tasks_cases');
+	cs.addQuery('taken_by', current.customer.sys_id);
+	cs.addQuery('assigned_to', current.resource.user.sys_id);
+	cs.addActiveQuery();
+	cs.query();
+	
+	
+	if (cs.next()) {
+		// Create new record in m2m table for case and reservation (this)
+		var m2m = new GlideRecord('x_casus_csm_m2m_survey_instances_cases');
+		m2m.initialize();
+		m2m.setValue('case', cs.getValue('sys_id'));
+		m2m.setValue('survey_instances', current.getValue('sys_id'));
+		m2m.insert();
+		
+		cs.work_notes = "Added Survey: " + current.survey.getDisplayValue();
+		cs.update();
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-10-06 21:51:16</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>31e27c9f6fe18b00ad6cd4a21c3ee4b7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>M2m Assessment Add</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
+        <sys_update_name>sys_script_31e27c9f6fe18b00ad6cd4a21c3ee4b7</sys_update_name>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-10-13 19:24:44</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+</record_update>

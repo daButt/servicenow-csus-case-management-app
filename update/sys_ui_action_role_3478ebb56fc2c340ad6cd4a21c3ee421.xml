@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_action_role">
+    <sys_ui_action_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_ui_action_role</sys_class_name>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-10-27 15:45:04</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>3478ebb56fc2c340ad6cd4a21c3ee421</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_casus_csm.case_manager</sys_name>
+        <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
+        <sys_ui_action display_value="Switch to Default View">5c78eff56fc2c340ad6cd4a21c3ee4b3</sys_ui_action>
+        <sys_update_name>sys_ui_action_role_3478ebb56fc2c340ad6cd4a21c3ee421</sys_update_name>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-10-27 15:45:04</sys_updated_on>
+        <sys_user_role display_value="x_casus_csm.case_manager" name="x_casus_csm.case_manager">84f65b670f83760012e4348ce1050eab</sys_user_role>
+    </sys_ui_action_role>
+</record_update>

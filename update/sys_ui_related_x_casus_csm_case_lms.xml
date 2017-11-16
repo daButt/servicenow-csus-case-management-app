@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_related sys_domain="global" table="x_casus_csm_case" version="2" view="LMS">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Case - LMS" name="x_casus_csm_case" related_list="NULL" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">7b9f5c256f754f00ad6cd4a21c3ee406</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>incident.u_case</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-10-13 20:12:46</sys_created_on>
+            <sys_id>bf9f5c256f754f00ad6cd4a21c3ee406</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-10-13 20:12:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Case - LMS" name="x_casus_csm_case" related_list="NULL" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">7b9f5c256f754f00ad6cd4a21c3ee406</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>sc_req_item.u_case</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-10-13 20:12:46</sys_created_on>
+            <sys_id>739f5c256f754f00ad6cd4a21c3ee407</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-10-13 20:12:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Case - LMS" name="x_casus_csm_case" related_list="NULL" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">7b9f5c256f754f00ad6cd4a21c3ee406</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_casus_reservatio_reservation.case</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-10-13 20:12:46</sys_created_on>
+            <sys_id>379f5c256f754f00ad6cd4a21c3ee407</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-10-13 20:12:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Case - LMS" name="x_casus_csm_case" related_list="NULL" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">7b9f5c256f754f00ad6cd4a21c3ee406</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>x_casus_csm_m2m_survey_instances_cases.case</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-10-13 20:12:46</sys_created_on>
+            <sys_id>f79f5c256f754f00ad6cd4a21c3ee407</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-10-13 20:12:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Case - LMS" name="x_casus_csm_case" related_list="NULL" sys_domain="global" view="8cfe797d0f9ff60012e4348ce1050ec7">7b9f5c256f754f00ad6cd4a21c3ee406</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>task_sla.task</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-10-13 20:12:46</sys_created_on>
+            <sys_id>bb9f5c256f754f00ad6cd4a21c3ee407</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-10-13 20:12:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Case - LMS</calculated_name>
+            <filter/>
+            <name>x_casus_csm_case</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-10-13 20:12:46</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_id>7b9f5c256f754f00ad6cd4a21c3ee406</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Case - LMS</sys_name>
+            <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
+            <sys_update_name>sys_ui_related_x_casus_csm_case_LMS</sys_update_name>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-10-13 20:12:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="LMS" name="LMS">8cfe797d0f9ff60012e4348ce1050ec7</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

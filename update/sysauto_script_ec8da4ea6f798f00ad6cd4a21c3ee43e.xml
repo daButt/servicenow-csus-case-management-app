@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Remove orphan cases</name>
+        <run_as display_value="Nicholas Myers">c44d0241fccff400afd74c548b802fc3</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-15 00:00:00</run_period>
+        <run_start>2017-11-01 07:45:00</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>periodically</run_type>
+        <script><![CDATA[killOrphanCases();
+
+//remove open cases that have no records for them, as they are unnecessary
+function killOrphanCases() {
+	
+	
+	gs.info("--- Beginning Orphan Case Pruning Scheduled Job ---");
+	var casesDeactivated = [];
+	var usersDeprovisioned = [];
+	
+	var orphanCase = new GlideRecord('x_casus_csm_case');
+	orphanCase.addActiveQuery();
+	orphanCase.addQuery('', '');
+	orphanCase.query();
+	
+	/*while(orphanCase.next()) {
+	
+		
+	} */
+	
+	for(var i = 0; i < casesDeactivated.length; i++) {
+		orphanCase.get(casesDeactivated[i]);
+		casesDeactivated[i] = orphanCase.number; //replace with number to make a user readable message that this item has been deleted
+		if(orphanCase.client.hasRole('x_casus_csm.user')) {
+			var roleRec = new GlideRecord('sys_user_has_role');
+			roleRec.addQuery('user', orphanCase.client);
+			roleRec.addQuery('role', 'x_casus_csm.user');
+			roleRec.query();
+			
+			//delete the role, and if they have multiple, those too.
+			while(roleRec.next()) {
+				roleRec.deleteRecord();
+			}
+			
+			usersDeprovisioned[i] = orphanCase.client.user_id;
+		}
+		
+		orphanCase.active = false;
+		orphanCase.update();
+		
+		gs.info(casesDeactivated[i] + " deactivated due to being opened for longer than a week without related records.");
+		gs.info(usersDeprovisioned[i] + " deprovisioned from case management.");
+	}
+
+	
+	gs.info("--- End Orphan Case Pruning Scheduled Job ---");
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>nicholasmyers</sys_created_by>
+        <sys_created_on>2017-10-17 00:06:06</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>ec8da4ea6f798f00ad6cd4a21c3ee43e</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Remove orphan cases</sys_name>
+        <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
+        <sys_update_name>sysauto_script_ec8da4ea6f798f00ad6cd4a21c3ee43e</sys_update_name>
+        <sys_updated_by>nicholasmyers</sys_updated_by>
+        <sys_updated_on>2017-10-25 18:29:15</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

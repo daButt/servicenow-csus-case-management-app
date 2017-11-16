@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Case Team Map" max_length="40" name="x_casus_csm_case_team_map" type="collection">
+        <element label="Case Team" max_length="32" name="case_team" reference="sys_user_group" type="reference"/>
+        <element label="Record Assignment Group" max_length="32" name="record_assignment_group" reference="sys_user_group" type="reference"/>
+        <index name="index">
+            <element name="record_assignment_group"/>
+        </index>
+        <index name="index2">
+            <element name="case_team"/>
+        </index>
+    </element>
+</database>

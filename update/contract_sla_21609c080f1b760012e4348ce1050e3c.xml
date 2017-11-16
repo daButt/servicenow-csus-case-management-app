@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="contract_sla">
     <contract_sla action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <cancel_condition/>
         <collection>x_casus_csm_case</collection>
         <condition_class/>
@@ -21,30 +21,30 @@
         <set_start_to>sys_created_on</set_start_to>
         <start_condition table="x_casus_csm_case">stateNOT IN46,45,9,3^assigned_toISEMPTY^assignment_group=7eaadfe70f83760012e4348ce1050ec2^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="NOT IN" or="false" value="46,45,9,3"/>
             <item endquery="false" field="assigned_to" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
-            <item display_table="sys_user_group" display_value="IRT Canvas" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="7eaadfe70f83760012e4348ce1050ec2"/>
+            <item display_table="sys_user_group" display_value="Academic Technology Center" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="7eaadfe70f83760012e4348ce1050ec2"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </start_condition>
         <stop_condition table="x_casus_csm_case">stateIN45,3^NQassigned_toISNOTEMPTY^ORassignment_group!=7eaadfe70f83760012e4348ce1050ec2^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="IN" or="false" value="45,3"/>
             <item endquery="false" field="assigned_to" goto="false" newquery="true" operator="ISNOTEMPTY" or="false" value=""/>
-            <item display_table="sys_user_group" display_value="IRT Canvas" endquery="false" field="assignment_group" goto="false" newquery="false" operator="!=" or="true" value="7eaadfe70f83760012e4348ce1050ec2"/>
+            <item display_table="sys_user_group" display_value="Academic Technology Center" endquery="false" field="assignment_group" goto="false" newquery="false" operator="!=" or="true" value="7eaadfe70f83760012e4348ce1050ec2"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </stop_condition>
         <sys_class_name>contract_sla</sys_class_name>
         <sys_created_by>gg622</sys_created_by>
         <sys_created_on>2017-06-06 20:40:10</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_id>21609c080f1b760012e4348ce1050e3c</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Unassigned LMS Case</sys_name>
         <sys_overrides/>
         <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
         <sys_policy/>
-        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_replace_on_upgrade>true</sys_replace_on_upgrade>
         <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
         <sys_update_name>contract_sla_21609c080f1b760012e4348ce1050e3c</sys_update_name>
         <sys_updated_by>nicholasmyers</sys_updated_by>
-        <sys_updated_on>2017-06-22 22:29:12</sys_updated_on>
+        <sys_updated_on>2017-10-27 17:55:15</sys_updated_on>
         <timezone/>
         <timezone_source>task.caller_id.time_zone</timezone_source>
         <type>SLA</type>
