@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-11-16 22:13:55</sys_created_on>
-            <sys_id>4a61c8e00f6ec30012e4348ce1050ef9</sys_id>
+            <sys_created_on>2017-11-29 18:29:08</sys_created_on>
+            <sys_id>04aa0eec0fb2030012e4348ce1050e29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_casus_csm_case" sys_domain="global" view="Default view">265d0faf0f43760012e4348ce1050e36</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-11-16 22:13:55</sys_updated_on>
+            <sys_updated_on>2017-11-29 18:29:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>client</element>
             <position>1</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-11-16 22:13:55</sys_created_on>
-            <sys_id>ca61c8e00f6ec30012e4348ce1050ef9</sys_id>
+            <sys_created_on>2017-11-29 18:29:08</sys_created_on>
+            <sys_id>84aa0eec0fb2030012e4348ce1050e29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_casus_csm_case" sys_domain="global" view="Default view">265d0faf0f43760012e4348ce1050e36</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-11-16 22:13:55</sys_updated_on>
+            <sys_updated_on>2017-11-29 18:29:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>contact_phone</element>
             <position>2</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-11-16 22:13:55</sys_created_on>
-            <sys_id>4e61c8e00f6ec30012e4348ce1050ef9</sys_id>
+            <sys_created_on>2017-11-29 18:29:08</sys_created_on>
+            <sys_id>08aa0eec0fb2030012e4348ce1050e29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_casus_csm_case" sys_domain="global" view="Default view">265d0faf0f43760012e4348ce1050e36</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-11-16 22:13:55</sys_updated_on>
+            <sys_updated_on>2017-11-29 18:29:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>contact_email</element>
             <position>3</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-11-16 22:13:55</sys_created_on>
-            <sys_id>ce61c8e00f6ec30012e4348ce1050ef9</sys_id>
+            <sys_created_on>2017-11-29 18:29:08</sys_created_on>
+            <sys_id>88aa0eec0fb2030012e4348ce1050e29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_casus_csm_case" sys_domain="global" view="Default view">265d0faf0f43760012e4348ce1050e36</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-11-16 22:13:55</sys_updated_on>
+            <sys_updated_on>2017-11-29 18:29:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>meta</element>
             <position>4</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-11-16 22:13:55</sys_created_on>
-            <sys_id>4261c8e00f6ec30012e4348ce1050efa</sys_id>
+            <sys_created_on>2017-11-29 18:29:08</sys_created_on>
+            <sys_id>0caa0eec0fb2030012e4348ce1050e29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_casus_csm_case" sys_domain="global" view="Default view">265d0faf0f43760012e4348ce1050e36</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-11-16 22:13:55</sys_updated_on>
+            <sys_updated_on>2017-11-29 18:29:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-11-16 22:13:55</sys_created_on>
-            <sys_id>c261c8e00f6ec30012e4348ce1050efa</sys_id>
+            <sys_created_on>2017-11-29 18:29:08</sys_created_on>
+            <sys_id>8caa0eec0fb2030012e4348ce1050e29</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_casus_csm_case" sys_domain="global" view="Default view">265d0faf0f43760012e4348ce1050e36</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-11-16 22:13:55</sys_updated_on>
+            <sys_updated_on>2017-11-29 18:29:08</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -89,13 +89,13 @@
             <element>state</element>
             <position>6</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-11-16 22:13:55</sys_created_on>
-            <sys_id>4661c8e00f6ec30012e4348ce1050efa</sys_id>
+            <sys_created_on>2017-11-29 18:29:08</sys_created_on>
+            <sys_id>00aa0eec0fb2030012e4348ce1050e2a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_casus_csm_case" sys_domain="global" view="Default view">265d0faf0f43760012e4348ce1050e36</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-11-16 22:13:55</sys_updated_on>
+            <sys_updated_on>2017-11-29 18:29:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -103,13 +103,13 @@
             <element>assignment_group</element>
             <position>7</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-11-16 22:13:55</sys_created_on>
-            <sys_id>c661c8e00f6ec30012e4348ce1050efa</sys_id>
+            <sys_created_on>2017-11-29 18:29:08</sys_created_on>
+            <sys_id>80aa0eec0fb2030012e4348ce1050e2a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_casus_csm_case" sys_domain="global" view="Default view">265d0faf0f43760012e4348ce1050e36</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-11-16 22:13:55</sys_updated_on>
+            <sys_updated_on>2017-11-29 18:29:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -117,41 +117,69 @@
             <element>assigned_to</element>
             <position>8</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-11-16 22:13:55</sys_created_on>
-            <sys_id>4a61c8e00f6ec30012e4348ce1050efa</sys_id>
+            <sys_created_on>2017-11-29 18:29:08</sys_created_on>
+            <sys_id>04aa0eec0fb2030012e4348ce1050e2a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_casus_csm_case" sys_domain="global" view="Default view">265d0faf0f43760012e4348ce1050e36</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-11-16 22:13:55</sys_updated_on>
+            <sys_updated_on>2017-11-29 18:29:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>open_incidents</element>
+            <position>9</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-11-29 18:29:08</sys_created_on>
+            <sys_id>84aa0eec0fb2030012e4348ce1050e2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_casus_csm_case" sys_domain="global" view="Default view">265d0faf0f43760012e4348ce1050e36</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-11-29 18:29:08</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>open_requests</element>
+            <position>10</position>
+            <sys_created_by>nicholasmyers</sys_created_by>
+            <sys_created_on>2017-11-29 18:29:08</sys_created_on>
+            <sys_id>08aa0eec0fb2030012e4348ce1050e2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_casus_csm_case" sys_domain="global" view="Default view">265d0faf0f43760012e4348ce1050e36</sys_ui_section>
+            <sys_updated_by>nicholasmyers</sys_updated_by>
+            <sys_updated_on>2017-11-29 18:29:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>9</position>
+            <position>11</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-11-16 22:13:55</sys_created_on>
-            <sys_id>ca61c8e00f6ec30012e4348ce1050efa</sys_id>
+            <sys_created_on>2017-11-29 18:29:08</sys_created_on>
+            <sys_id>88aa0eec0fb2030012e4348ce1050e2a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_casus_csm_case" sys_domain="global" view="Default view">265d0faf0f43760012e4348ce1050e36</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-11-16 22:13:55</sys_updated_on>
+            <sys_updated_on>2017-11-29 18:29:08</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>10</position>
+            <position>12</position>
             <sys_created_by>nicholasmyers</sys_created_by>
-            <sys_created_on>2017-11-16 22:13:55</sys_created_on>
-            <sys_id>4e61c8e00f6ec30012e4348ce1050efa</sys_id>
+            <sys_created_on>2017-11-29 18:29:08</sys_created_on>
+            <sys_id>0caa0eec0fb2030012e4348ce1050e2a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_casus_csm_case" sys_domain="global" view="Default view">265d0faf0f43760012e4348ce1050e36</sys_ui_section>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-11-16 22:13:55</sys_updated_on>
+            <sys_updated_on>2017-11-29 18:29:08</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -166,7 +194,7 @@
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>265d0faf0f43760012e4348ce1050e36</sys_id>
-            <sys_mod_count>15</sys_mod_count>
+            <sys_mod_count>16</sys_mod_count>
             <sys_name>x_casus_csm_case</sys_name>
             <sys_overrides display_value="">global</sys_overrides>
             <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
@@ -175,7 +203,7 @@
             <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
             <sys_update_name>sys_ui_section_265d0faf0f43760012e4348ce1050e36</sys_update_name>
             <sys_updated_by>nicholasmyers</sys_updated_by>
-            <sys_updated_on>2017-11-16 22:13:55</sys_updated_on>
+            <sys_updated_on>2017-11-29 18:29:09</sys_updated_on>
             <sys_user/>
             <title>true</title>
             <view display_value="Default view" name="NULL">Default view</view>

@@ -7,14 +7,22 @@
         <audit>false</audit>
         <calculation>(function calculatedFieldValue(current) {&#13;
 &#13;
-	// count of the number of active requests in this case&#13;
-	var count = new GlideAggregate('incident');&#13;
-        count.addAggregate('COUNT');&#13;
-        count.addQuery('active', true);&#13;
-        count.query();&#13;
-        var incidents = 0;&#13;
-         if (count.next()) &#13;
-          incidents = count.getAggregate('COUNT');&#13;
+var count = new GlideAggregate('sc_req_item');&#13;
+count.addQuery('active', true);&#13;
+var stateOrCondish = count.addQuery('state', '!=', 3); //complete&#13;
+stateOrCondish.addOrCondition('state', '!=', 4); //incomplete&#13;
+stateOrCondish.addOrCondition('state', '!=', 7); //skipped&#13;
+count.addQuery('u_case', current.getValue('sys_id'));&#13;
+count.addAggregate('COUNT');&#13;
+count.query();&#13;
+&#13;
+var requests = 0;&#13;
+if(count.next()) {&#13;
+   requests = count.getAggregate('COUNT');&#13;
+} &#13;
+&#13;
+return parseInt(requests);&#13;
+&#13;
 })(current);</calculation>
         <choice/>
         <choice_field/>
@@ -58,7 +66,7 @@
         <sys_created_on>2017-10-27 17:57:23</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>f3b6c0826f06c340ad6cd4a21c3ee42d</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Open Requests</sys_name>
         <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
         <sys_policy/>
@@ -66,14 +74,14 @@
         <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
         <sys_update_name>sys_dictionary_x_casus_csm_case_open_requests</sys_update_name>
         <sys_updated_by>nicholasmyers</sys_updated_by>
-        <sys_updated_on>2017-11-16 22:13:28</sys_updated_on>
+        <sys_updated_on>2017-11-29 19:28:22</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

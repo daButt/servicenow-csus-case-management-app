@@ -7,24 +7,20 @@
         <audit>false</audit>
         <calculation>(function calculatedFieldValue(current) {&#13;
 &#13;
-	// count of the number of active requests in this case&#13;
-	var incCount = new GlideAggregate('sc_req_item');&#13;
-        incCount.addQuery('active', true);&#13;
-        var stateQuery = incCount.addQuery('state', 5); //awaiting user info&#13;
-        stateQuery.addOrCondition('state', 1); //new&#13;
-        stateQuery.addOrCondition('state', 2); //work in progress&#13;
-        stateQuery.addOrCondition('state', 8); //awaiting vendor&#13;
-        stateQuery.addOrCondition('state', 9); //pending problem&#13;
-        stateQuery.addOrCondition('state', 11); //pending change&#13;
-        stateQuery.addOrCondition('state', 16); //long term project&#13;
-        incCount.addQuery('u_case', current);&#13;
-        incCount.addAggregate('COUNT');&#13;
-        incCount.query();&#13;
-        &#13;
-        if(incCount.next()) &#13;
-              return incCount.getAggregate('COUNT');&#13;
-        &#13;
+var count = new GlideAggregate('incident');&#13;
+count.addQuery('active', true);&#13;
+var stateOrCondish = count.addQuery('state', '!=', 6); //resolved&#13;
+stateOrCondish.addOrCondition('state', '!=', 7); //closed&#13;
+count.addQuery('u_case', current.getValue('sys_id'));&#13;
+count.addAggregate('COUNT');&#13;
+count.query();&#13;
 &#13;
+var incidents = 0;&#13;
+while(count.next()) {&#13;
+   incidents = count.getAggregate('COUNT');&#13;
+} &#13;
+&#13;
+return parseInt(incidents);&#13;
 &#13;
 })(current);</calculation>
         <choice/>
@@ -69,7 +65,7 @@
         <sys_created_on>2017-10-27 17:57:22</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>c0b6c8ce6fc2c340ad6cd4a21c3ee44a</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>Open Incidents</sys_name>
         <sys_package display_value="Case Management" source="x_casus_csm">c62dcf2f0f43760012e4348ce1050e5f</sys_package>
         <sys_policy/>
@@ -77,14 +73,14 @@
         <sys_scope display_value="Case Management">c62dcf2f0f43760012e4348ce1050e5f</sys_scope>
         <sys_update_name>sys_dictionary_x_casus_csm_case_open_incidents</sys_update_name>
         <sys_updated_by>nicholasmyers</sys_updated_by>
-        <sys_updated_on>2017-11-16 22:13:07</sys_updated_on>
+        <sys_updated_on>2017-11-29 19:29:53</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
